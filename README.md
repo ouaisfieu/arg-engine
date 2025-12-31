@@ -5416,5 +5416,1912 @@ echo "Terminé."
 - J’ai inclus sprites SVG, styles néon, glitch, Konami et la logique JS pour la pluie de pingouins. Le ZIP est autonome et pensé pour être **partageable** et **viral** tout en respectant l’accessibilité (préférence `prefers-reduced-motion`) et la vie privée (pas de tracking).  
 - Si vous voulez, je peux maintenant : (1) générer une version minifiée du bundle, (2) ajouter un `index.html` alternatif qui inline les SVG pour une seule page totalement autonome, ou (3) préparer un commit Git prêt à pousser sur un repo GitHub (fichiers + message). Choisissez 1, 2 ou 3 et je fournis immédiatement le contenu.
 
+## Préviously, ici et maintenant
+
+**Résumé rapide :** **Lancez un MVP low‑tech basé sur une plateforme open‑source existante, collectez des données citoyennes en mode « consentement copropriétaire », puis financez‑vous par micro‑subventions, bourses EU/régionales et campagnes communautaires**. Voici un plan concret, priorisé et adapté à zéro budget et à un travail 100 % asynchrone.
+
+### Options prioritaires et guide de décision
+**Questions clés à trancher d’abord :** voulez‑vous *contrôler* l’infrastructure (hébergement propre) ou *démarrer vite* sur une instance hébergée ; acceptez‑vous des contributions techniques externes ; quelle est la portée géographique initiale (locale vs. EU) ?  
+**Décisions rapides recommandées :** commencer sur une **plateforme open‑source mature** pour réduire le coût et le temps, garder les données **exportables** et gouvernées par des règles de copropriété (licence + pacte d’usage).
+
+---
+
+### Comparaison synthétique des voies possibles
+
+| Option | Coût initial | Vitesse MVP | Contrôle données | Adapté ARG / ludification |
+|---|---:|---:|---:|---:|
+| Fork d’un projet existant (Decidim/Consul) | Très faible | Rapide | Élevé | Bon |
+| Utiliser CivicNet / projet GitHub | Faible | Rapide‑moyen | Élevé | Moyen |
+| Outil low‑tech (formulaires + Git) | Nul | Très rapide | Moyen | Limité |
+| Événements ARG locaux + collecte | Faible | Lent | Faible | Excellent |
+
+> Sources: .
+
+---
+
+### Plan d’action concret (priorité 1→4)
+1. **MVP low‑tech (2–6 semaines)** : pages statiques + formulaires anonymes (Framaforms/Google Forms si nécessaire), données stockées en CSV sur un dépôt public chiffré; règles claires de copropriété des données (licence CC0/ODbL + contrat simple). **Objectif : prouver la collecte et la valeur des données**.  
+2. **Basculer sur une plateforme open‑source** : installez Decidim ou Consul pour fonctionnalités participatives (propositions, votes, assemblées) ou explorez CivicNet pour une base modulaire.  
+3. **Gamification / ARG design** : concevez micro‑missions asynchrones (semaine de silence acceptée comme mécanique de jeu), puzzles locaux, et récompenses non monétaires (badges, co‑propriété des insights) — vous pouvez vous inspirer d’ARGs civiques et de méthodes de psychogéographie pour l’engagement.  
+4. **Financement** : ciblez micro‑subventions régionales (Wallonie/Flandre/Bruxelles), fonds EU (Horizon/EIC, ERDF) et programmes pour PME/innovation; le montage peut commencer avec un dossier « preuve de concept » basé sur votre MVP.
+
+---
+
+### Risques, limites et mitigations
+- **Vie privée / RGPD** : anonymisez, minimisez les données, documentez le consentement et la copropriété.  
+- **Sécurité des données** : hébergez sur services fiables, chiffrez les exports.  
+- **Engagement durable** : alternez micro‑missions et temps de repos; acceptez les « silences radio » comme feature de tolérance.  
+- **Financement long** : commencez par petites subventions et crowdfunding citoyen; utilisez preuves d’impact pour candidater à Horizon/EIC.
+
+---
+
+### Prochaines étapes que je peux faire pour vous maintenant
+- **Rédiger un modèle de page MVP + formulaire** (texte prêt à copier).  
+- **Ébaucher un pitch court pour une micro‑subvention belge**.  
+- **Proposer 6 micro‑missions ARG asynchrones** adaptées à tolérance d’absence.
+
+Dites laquelle de ces trois actions vous voulez que je prépare en premier.
+
+---
+
+### Modèle de page MVP pour lancement rapide
+
+**Titre**  
+**Veille Citoyenne Ludifiée — Collecte de données copropriétaire**
+
+**Accroche**  
+Renforcez la démocratie en participant à une veille citoyenne simple, asynchrone et respectueuse de votre rythme. Vos contributions alimentent des actions concrètes et vous restez copropriétaire des données que vous partagez.
+
+**Sous‑titre**  
+Micro‑missions asynchrones · Silence radio accepté · Données ouvertes et co‑gérées
+
+---
+
+### Section Mission et Valeur
+
+**Mission**  
+Collecter des observations citoyennes locales pour produire des preuves exploitables par la communauté et les décideurs, tout en garantissant que les contributeurs gardent la propriété et le contrôle de leurs données.
+
+**Valeur pour le participant**  
+- **Impact concret** : vos signalements servent à produire rapports et campagnes.  
+- **Co‑propriété** : accès aux données agrégées et droit de co‑décision sur leur usage.  
+- **Flexibilité** : participation asynchrone, pauses longues acceptées.  
+- **Récompenses non monétaires** : badges, accès prioritaire aux résultats, rôle dans la co‑construction.
+
+---
+
+### Section Comment ça marche
+
+**Étapes simples**  
+1. Remplissez un signalement via le formulaire ci‑dessous.  
+2. Vos données sont anonymisées et stockées dans un dépôt ouvert.  
+3. La communauté valide et enrichit les données.  
+4. Les insights sont publiés sous licence ouverte et co‑gérés.
+
+**Principes clés**  
+- **Minimisation** des données collectées.  
+- **Transparence** sur l’usage et les accès.  
+- **Consentement explicite** et possibilité de retrait.  
+- **Tolérance au silence** : votre absence n’empêche pas la progression collective.
+
+---
+
+### Formulaire de signalement prêt à copier
+
+**Instructions**  
+Copier‑coller ce formulaire dans Framaforms, Typeform, ou un simple Google Form. Exportez en CSV et hébergez le CSV sur un dépôt public (GitHub/GitLab) ou un stockage chiffré.
+
+**Champs du formulaire**  
+- **Date et heure du signalement** — *automatique* — **obligatoire**  
+- **Zone géographique** — *code postal ou commune* — **obligatoire**  
+- **Type d’observation** — *choix multiple : urbanisme; environnement; services publics; transparence; autre* — **obligatoire**  
+- **Description courte** — *1–3 phrases* — **obligatoire**  
+- **Détails complémentaires** — *texte libre* — optionnel  
+- **Preuve jointe** — *URL ou upload (optionnel)* — optionnel  
+- **Niveau de sensibilité** — *public; anonymisé; privé pour modération* — **obligatoire**  
+- **Consentement de copropriété des données** — case à cocher **obligatoire** : « Je consens à ce que mes données soient stockées, anonymisées et partagées sous licence ODbL; je deviens copropriétaire des jeux de données agrégés. »  
+- **Autorisation de contact** — case à cocher optionnelle : « J’accepte d’être contacté·e pour co‑construction. »
+
+**Exemple d’en‑tête CSV**  
+`date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact`
+
+---
+
+### Texte de consentement et clause de copropriété courte
+
+**Consentement**  
+En cochant, vous acceptez que votre signalement soit collecté, anonymisé et publié dans des jeux de données agrégés. Vous conservez des droits de copropriété sur les jeux de données et participez aux décisions d’usage via les mécanismes de gouvernance communautaire.
+
+**Clause de copropriété (version courte)**  
+Les contributeurs deviennent copropriétaires des jeux de données agrégés. Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs. Les données individuelles restent anonymisées sauf accord explicite.
+
+---
+
+### Politique vie privée et conformité RGPD simplifiée
+
+**Principes**  
+- **Base légale** : consentement explicite.  
+- **Données minimales** : ne collecter que l’essentiel.  
+- **Anonymisation** : suppression des identifiants directs avant publication.  
+- **Droit d’accès et de retrait** : procédure simple par email ou via dépôt.  
+- **Durée de conservation** : définie et publiée (ex. 3 ans pour données brutes, jeux agrégés publiés indéfiniment sous licence).
+
+---
+
+### Hébergement low‑tech et outils recommandés
+
+**Option la plus rapide**  
+- **Formulaire** : Framaforms ou Google Forms.  
+- **Stockage** : CSV exporté vers un dépôt GitHub public (ou GitLab) avec versioning.  
+- **Page statique** : GitHub Pages ou Netlify pour héberger la page MVP.  
+- **Gouvernance** : fichier `GOVERNANCE.md` dans le dépôt décrivant la copropriété et le comité.
+
+**Sécurité basique**  
+- Chiffrement des backups.  
+- Accès admin limité.  
+- Processus de modération documenté.
+
+---
+
+### Appels à l’action et éléments à afficher sur la page
+
+**Boutons**  
+- **Signaler maintenant** (ouvre le formulaire)  
+- **Voir les données agrégées** (lien vers CSV/visualisation)  
+- **Rejoindre la co‑construction** (inscription optionnelle)  
+- **Contribuer au code** (lien GitHub)
+
+**Éléments visibles**  
+- Compteur de signalements collectés.  
+- Carte simple (embed) des observations publiques.  
+- FAQ courte sur la copropriété des données.
+
+---
+
+### Modèle de message pour la page « À propos » court
+
+**À propos**  
+Nous sommes une initiative citoyenne indépendante qui collecte des observations locales pour produire des preuves et des actions. Notre approche est ouverte, inclusive et conçue pour respecter les rythmes de vie de chacun·e. Les contributeurs sont copropriétaires des données et participent aux décisions d’usage.
+
+---
+
+### Checklist technique pour mise en ligne en 48 heures
+
+- [ ] Créer dépôt GitHub public.  
+- [ ] Créer formulaire et tester export CSV.  
+- [ ] Rédiger `README.md`, `GOVERNANCE.md`, `PRIVACY.md`.  
+- [ ] Mettre en ligne page statique avec contenu ci‑dessus.  
+- [ ] Publier premier CSV anonymisé.  
+- [ ] Partager lien dans 2 communautés locales pour premiers tests.
+
+---
+
+### Prochaine action que je peux préparer immédiatement
+
+Je peux **générer le texte complet prêt à coller** pour :  
+- la page d’accueil (HTML/Markdown),  
+- le formulaire (questions et descriptions prêtes),  
+- le fichier `GOVERNANCE.md` minimal.  
+
+Je prépare cela maintenant et vous le fournis dans le format que vous préférez.
+
+---
+
+### Limitation technique et solution immédiate
+
+Je ne peux pas créer ni envoyer directement un fichier ZIP depuis ici. Je fournis ci‑dessous **tous les fichiers prêts à copier** (Markdown et CSV) — vous pouvez ensuite les enregistrer localement et les compresser en ZIP en suivant les instructions fournies.
+
+---
+
+### Contenu que je fournis maintenant (fichiers inclus)
+
+Je fournis les fichiers suivants, prêts à coller dans des fichiers texte :
+
+- **`index.md`** — page d’accueil / landing page (Markdown)  
+- **`form.md`** — questions du formulaire prêtes à coller dans Framaforms/Google Forms (Markdown)  
+- **`GOVERNANCE.md`** — gouvernance minimale  
+- **`PRIVACY.md`** — politique vie privée simplifiée (RGPD)  
+- **`README.md`** — instructions rapides pour mise en ligne en 48 h  
+- **`data_sample.csv`** — en‑tête CSV d’exemple et une ligne de test
+
+---
+
+### `index.md`
+
+```markdown
+# Veille Citoyenne Ludifiée — Collecte de données copropriétaire
+
+**Accroche**  
+Renforcez la démocratie en participant à une veille citoyenne simple, asynchrone et respectueuse de votre rythme. Vos contributions alimentent des actions concrètes et vous restez copropriétaire des données que vous partagez.
+
+**Sous‑titre**  
+Micro‑missions asynchrones · Silence radio accepté · Données ouvertes et co‑gérées
+
+## Mission  
+Collecter des observations citoyennes locales pour produire des preuves exploitables par la communauté et les décideurs, tout en garantissant que les contributeurs gardent la propriété et le contrôle de leurs données.
+
+## Valeur pour le participant  
+- **Impact concret** : vos signalements servent à produire rapports et campagnes.  
+- **Co‑propriété** : accès aux données agrégées et droit de co‑décision sur leur usage.  
+- **Flexibilité** : participation asynchrone, pauses longues acceptées.  
+- **Récompenses non monétaires** : badges, accès prioritaire aux résultats, rôle dans la co‑construction.
+
+## Comment ça marche  
+1. Remplissez un signalement via le formulaire.  
+2. Vos données sont anonymisées et stockées dans un dépôt ouvert.  
+3. La communauté valide et enrichit les données.  
+4. Les insights sont publiés sous licence ouverte et co‑gérés.
+
+## Principes clés  
+- Minimisation des données collectées.  
+- Transparence sur l’usage et les accès.  
+- Consentement explicite et possibilité de retrait.  
+- Tolérance au silence : votre absence n’empêche pas la progression collective.
+
+## Appels à l’action  
+- **Signaler maintenant** (lien vers formulaire)  
+- **Voir les données agrégées** (lien vers CSV/visualisation)  
+- **Rejoindre la co‑construction** (inscription optionnelle)  
+- **Contribuer au code** (lien GitHub)
+
+## FAQ courte  
+**Qui gère les données ?** Un comité représentatif des contributeurs, décrit dans GOVERNANCE.md.  
+**Comment retirer un signalement ?** Procédure décrite dans PRIVACY.md.
+```
+
+---
+
+### `form.md` (questions du formulaire)
+
+```markdown
+# Formulaire de signalement — Veille Citoyenne Ludifiée
+
+**Instructions**  
+Merci de décrire brièvement votre observation. Les champs marqués d’un astérisque sont obligatoires.
+
+**Champs**  
+- Date et heure du signalement — *automatique* — **obligatoire**  
+- Zone géographique — *code postal ou commune* — **obligatoire**  
+- Type d’observation — *choix multiple* — **obligatoire**  
+  - urbanisme; environnement; services publics; transparence; autre  
+- Description courte — *1–3 phrases* — **obligatoire**  
+- Détails complémentaires — *texte libre* — optionnel  
+- Preuve jointe — *URL ou upload (optionnel)* — optionnel  
+- Niveau de sensibilité — *choix* — **obligatoire**  
+  - public; anonymisé; privé pour modération  
+- Consentement de copropriété des données — **case à cocher obligatoire**  
+  - « Je consens à ce que mes données soient stockées, anonymisées et partagées sous licence ODbL; je deviens copropriétaire des jeux de données agrégés. »  
+- Autorisation de contact — **case à cocher optionnelle**  
+  - « J’accepte d’être contacté·e pour co‑construction. »
+
+**Export CSV**  
+Utilisez l’en‑tête suivante pour l’export automatique :
+`date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact`
+```
+
+---
+
+### `GOVERNANCE.md`
+
+```markdown
+# GOVERNANCE
+
+## Principes
+- Les contributeurs sont copropriétaires des jeux de données agrégés.  
+- Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs.
+
+## Comité représentatif
+- Composition initiale : 5 membres volontaires élus par les contributeurs inscrits.  
+- Mandat : 1 an renouvelable.  
+- Rôle : valider les usages des données, arbitrer les demandes d’accès, superviser la publication.
+
+## Processus de décision
+- Propositions soumises sur le dépôt public (issue).  
+- Vote en ligne asynchrone sur une période de 7 jours.  
+- Quorum : 10 % des contributeurs inscrits ou 50 contributeurs, selon le plus petit.
+
+## Modifications
+- Toute modification de la gouvernance doit être approuvée par vote du comité et consultation publique.
+```
+
+---
+
+### `PRIVACY.md`
+
+```markdown
+# PRIVACY
+
+## Principes
+- **Base légale** : consentement explicite.  
+- **Minimisation** : seules les données nécessaires sont collectées.  
+- **Anonymisation** : suppression des identifiants directs avant publication.  
+- **Droit d’accès et de retrait** : procédure simple par email ou via le dépôt.  
+- **Durée de conservation** : 3 ans pour données brutes; jeux agrégés publiés indéfiniment sous licence ODbL.
+
+## Procédure de retrait
+- Envoyer une demande via l’adresse indiquée sur la page.  
+- Le comité traite la demande et retire les données identifiables dans un délai de 30 jours, sauf si la donnée a déjà été intégrée de façon irréversible dans un jeu agrégé (les contributeurs en seront informés).
+
+## Sécurité
+- Backups chiffrés.  
+- Accès admin limité et journalisé.
+```
+
+---
+
+### `README.md`
+
+```markdown
+# README — Mise en ligne rapide en 48 h
+
+## Étapes
+1. Créer un dépôt GitHub public.  
+2. Copier les fichiers fournis (`index.md`, `form.md`, `GOVERNANCE.md`, `PRIVACY.md`, `data_sample.csv`) dans le dépôt.  
+3. Créer le formulaire sur Framaforms ou Google Forms en utilisant `form.md`. Tester l’export CSV.  
+4. Mettre en ligne la page statique via GitHub Pages ou Netlify en utilisant `index.md`.  
+5. Publier le premier CSV anonymisé dans le dépôt (data/data_sample.csv).  
+6. Partager le lien dans 2 communautés locales pour premiers tests.
+
+## Outils recommandés
+- Formulaire : Framaforms ou Google Forms.  
+- Hébergement page : GitHub Pages ou Netlify.  
+- Dépôt : GitHub ou GitLab.
+```
+
+---
+
+### `data_sample.csv`
+
+```csv
+date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact
+2025-12-30T12:34:00,Exampleville,urbanisme,"Trottoir endommagé devant école","Trottoir fissuré sur 10m, risque pour poussettes",http://example.org/photo.jpg,public,oui,non
+```
+
+---
+
+### Instructions pour créer un ZIP localement
+
+**Sur macOS ou Linux (terminal)**  
+1. Enregistrez chaque bloc ci‑dessous dans un fichier portant le nom indiqué (`index.md`, `form.md`, `GOVERNANCE.md`, `PRIVACY.md`, `README.md`, `data_sample.csv`).  
+2. Ouvrez un terminal dans le dossier contenant ces fichiers.  
+3. Exécutez :  
+```bash
+zip -r veille_citoyenne.zip index.md form.md GOVERNANCE.md PRIVACY.md README.md data_sample.csv
+```
+
+**Sur Windows (Explorateur)**  
+1. Enregistrez chaque bloc dans les fichiers listés.  
+2. Sélectionnez les fichiers, clic droit → Envoyer vers → Dossier compressé.  
+3. Renommez le fichier compressé en `veille_citoyenne.zip`.
+
+---
+
+### Prochaine étape que je fournis maintenant
+
+Je vais coller **immédiatement** ci‑dessous les contenus complets (déjà fournis). Si vous voulez, je peux aussi :  
+- fournir une version HTML de `index.md` prête à coller,  
+- générer un exemple de `GOVERNANCE.md` plus détaillé,  
+- ou préparer un message court pour lancer la première diffusion dans des communautés locales.
+
+J’ai préparé les fichiers Markdown et CSV ci‑dessus — dites simplement si vous voulez la **version HTML** de la page d’accueil maintenant.
+
+---
+
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Veille Citoyenne Ludifiée — Collecte de données copropriétaire</title>
+  <meta name="description" content="Micro‑missions asynchrones · Silence radio accepté · Données ouvertes et co‑gérées" />
+  <style>
+    :root{--bg:#f7f8fb;--card:#ffffff;--accent:#0b6efd;--muted:#6b7280;--maxw:900px}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;color:#111;background:var(--bg);margin:0;padding:24px;display:flex;justify-content:center}
+    .wrap{max-width:var(--maxw);width:100%}
+    header{background:linear-gradient(90deg,#fff 0,#f3f6ff 100%);padding:28px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.06);margin-bottom:18px}
+    h1{margin:0 0 8px;font-size:1.6rem}
+    p.lead{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.04)}
+    .small{font-size:0.95rem;color:var(--muted)}
+    ul{padding-left:1.1rem}
+    .cta{display:flex;flex-direction:column;gap:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;color:#fff;background:var(--accent);font-weight:600}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,253,0.12)}
+    .meta{font-size:0.9rem;color:var(--muted);margin-top:12px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:0.9rem}
+    @media(max-width:880px){.grid{grid-template-columns:1fr;}.card{padding:14px}}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-family:monospace;font-size:0.95em}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="page-title">
+    <header>
+      <h1 id="page-title">Veille Citoyenne Ludifiée — Collecte de données copropriétaire</h1>
+      <p class="lead">Micro‑missions asynchrones · Silence radio accepté · Données ouvertes et co‑gérées</p>
+    </header>
+
+    <div class="grid">
+      <section class="card" aria-labelledby="mission-title">
+        <h2 id="mission-title">Mission</h2>
+        <p class="small">Collecter des observations citoyennes locales pour produire des preuves exploitables par la communauté et les décideurs, tout en garantissant que les contributeurs gardent la propriété et le contrôle de leurs données.</p>
+
+        <h3>Valeur pour le participant</h3>
+        <ul>
+          <li><strong>Impact concret</strong> : vos signalements servent à produire rapports et campagnes.</li>
+          <li><strong>Co‑propriété</strong> : accès aux données agrégées et droit de co‑décision sur leur usage.</li>
+          <li><strong>Flexibilité</strong> : participation asynchrone, pauses longues acceptées.</li>
+          <li><strong>Récompenses non monétaires</strong> : badges, accès prioritaire aux résultats, rôle dans la co‑construction.</li>
+        </ul>
+
+        <h3>Comment ça marche</h3>
+        <ol>
+          <li>Remplissez un signalement via le formulaire.</li>
+          <li>Vos données sont anonymisées et stockées dans un dépôt ouvert.</li>
+          <li>La communauté valide et enrichit les données.</li>
+          <li>Les insights sont publiés sous licence ouverte et co‑gérés.</li>
+        </ol>
+
+        <h3>Principes clés</h3>
+        <ul>
+          <li>Minimisation des données collectées.</li>
+          <li>Transparence sur l’usage et les accès.</li>
+          <li>Consentement explicite et possibilité de retrait.</li>
+          <li>Tolérance au silence : votre absence n’empêche pas la progression collective.</li>
+        </ul>
+
+        <p class="meta">Voir <a href="#governance">Gouvernance</a> et <a href="#privacy">Politique vie privée</a> pour les détails.</p>
+      </section>
+
+      <aside class="card" aria-labelledby="actions-title">
+        <h2 id="actions-title">Actions rapides</h2>
+        <div class="cta">
+          <a class="btn" href="https://example.org/form" id="report-link">Signaler maintenant</a>
+          <a class="btn ghost" href="https://example.org/data.csv" id="data-link">Voir les données agrégées</a>
+          <a class="btn ghost" href="https://example.org/join" id="join-link">Rejoindre la co‑construction</a>
+          <a class="btn ghost" href="https://github.com/example/repo" id="code-link">Contribuer au code</a>
+        </div>
+
+        <div class="meta" aria-hidden="false">
+          <p><strong>Compteur</strong> : <span id="counter">0</span> signalements</p>
+          <p><strong>Carte</strong> : embed simple disponible après premiers signalements.</p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card" id="form-section" aria-labelledby="form-title" style="margin-top:18px">
+      <h2 id="form-title">Formulaire de signalement (extrait)</h2>
+      <p class="small">Les champs marqués d’un astérisque sont obligatoires. Copiez ce modèle dans Framaforms, Typeform ou Google Forms.</p>
+
+      <pre style="white-space:pre-wrap;background:#f8fafc;padding:12px;border-radius:8px;border:1px solid #eef2ff">
+Champs :
+- Date et heure du signalement — automatique — *obligatoire*
+- Zone géographique — code postal ou commune — *obligatoire*
+- Type d’observation — choix multiple — *obligatoire* (urbanisme; environnement; services publics; transparence; autre)
+- Description courte — 1–3 phrases — *obligatoire*
+- Détails complémentaires — texte libre — optionnel
+- Preuve jointe — URL ou upload — optionnel
+- Niveau de sensibilité — choix — *obligatoire* (public; anonymisé; privé pour modération)
+- Consentement de copropriété des données — case à cocher obligatoire
+- Autorisation de contact — case à cocher optionnelle
+      </pre>
+    </section>
+
+    <section class="card" id="governance" aria-labelledby="gov-title" style="margin-top:18px">
+      <h2 id="gov-title">GOVERNANCE (extrait)</h2>
+      <p class="small"><strong>Principes</strong> : Les contributeurs sont copropriétaires des jeux de données agrégés. Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs.</p>
+
+      <p class="small"><strong>Comité représentatif</strong> : 5 membres volontaires élus par les contributeurs inscrits. Mandat 1 an. Rôle : valider usages, arbitrer accès, superviser publication.</p>
+
+      <p class="small"><strong>Processus</strong> : propositions sur le dépôt public (issue), vote en ligne asynchrone 7 jours, quorum 10 % ou 50 contributeurs.</p>
+    </section>
+
+    <section class="card" id="privacy" aria-labelledby="privacy-title" style="margin-top:18px">
+      <h2 id="privacy-title">Politique vie privée (extrait)</h2>
+      <p class="small"><strong>Base légale</strong> : consentement explicite. <strong>Minimisation</strong> : seules les données nécessaires sont collectées. <strong>Anonymisation</strong> : suppression des identifiants directs avant publication.</p>
+
+      <p class="small"><strong>Retrait</strong> : demande par email ou via le dépôt ; traitement sous 30 jours. <strong>Durée</strong> : 3 ans pour données brutes ; jeux agrégés publiés indéfiniment sous licence ODbL.</p>
+    </section>
+
+    <footer>
+      <p>Prêt à lancer un MVP low‑tech en 48 h. <a href="#form-section">Commencez par le formulaire</a>.</p>
+    </footer>
+  </main>
+
+  <script>
+    // Petit script client pour compteur et liens de démonstration (à remplacer par données réelles)
+    (function(){
+      // compteur simulé
+      var counter = document.getElementById('counter');
+      var stored = localStorage.getItem('vc_count') || '0';
+      counter.textContent = stored;
+
+      // liens placeholders : remplacez les href par vos URLs réelles
+      document.getElementById('report-link').href = 'https://example.org/form';
+      document.getElementById('data-link').href = 'https://example.org/data.csv';
+      document.getElementById('join-link').href = 'https://example.org/join';
+      document.getElementById('code-link').href = 'https://github.com/example/repo';
+    })();
+  </script>
+</body>
+</html>
+```
+
+
+---
+
+### Fichiers HTML restants prêts à coller
+
+#### `form.html`
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Formulaire — Veille Citoyenne Ludifiée</title>
+  <style>
+    body{font-family:system-ui,Arial;margin:20px;background:#f7f8fb;color:#111}
+    .wrap{max-width:800px;margin:0 auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.04)}
+    label{display:block;margin-top:12px;font-weight:600}
+    input,textarea,select{width:100%;padding:10px;margin-top:6px;border:1px solid #e6e9ef;border-radius:8px}
+    .hint{font-size:0.9rem;color:#6b7280;margin-top:6px}
+    .btn{display:inline-block;margin-top:14px;padding:10px 14px;background:#0b6efd;color:#fff;border-radius:8px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Formulaire de signalement</h1>
+    <p class="hint">Copiez ce modèle dans Framaforms, Typeform ou Google Forms. Les champs marqués d’un astérisque sont obligatoires.</p>
+
+    <form>
+      <label>Date et heure du signalement *</label>
+      <input type="datetime-local" name="date" required />
+
+      <label>Zone géographique (code postal ou commune) *</label>
+      <input type="text" name="commune" required />
+
+      <label>Type d’observation *</label>
+      <select name="type_observation" required>
+        <option value="">— Choisir —</option>
+        <option>urbanisme</option>
+        <option>environnement</option>
+        <option>services publics</option>
+        <option>transparence</option>
+        <option>autre</option>
+      </select>
+
+      <label>Description courte (1–3 phrases) *</label>
+      <textarea name="description_courte" rows="3" required></textarea>
+
+      <label>Détails complémentaires</label>
+      <textarea name="details" rows="4"></textarea>
+
+      <label>Preuve jointe (URL ou upload)</label>
+      <input type="url" name="preuve_url" placeholder="https://..." />
+
+      <label>Niveau de sensibilité *</label>
+      <select name="niveau_sensibilite" required>
+        <option value="">— Choisir —</option>
+        <option>public</option>
+        <option>anonymisé</option>
+        <option>privé pour modération</option>
+      </select>
+
+      <label><input type="checkbox" name="consentement" required /> Je consens à ce que mes données soient stockées, anonymisées et partagées sous licence ODbL; je deviens copropriétaire des jeux de données agrégés. *</label>
+
+      <label><input type="checkbox" name="autorisation_contact" /> J’accepte d’être contacté·e pour co‑construction.</label>
+
+      <button class="btn" type="submit">Soumettre</button>
+    </form>
+  </main>
+</body>
+</html>
+```
+
+#### `GOVERNANCE.html`
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gouvernance — Veille Citoyenne Ludifiée</title>
+  <style>body{font-family:system-ui,Arial;margin:20px;background:#f7f8fb;color:#111}.wrap{max-width:900px;margin:0 auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.04)}h1{margin-top:0}.section{margin-top:12px}</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>GOVERNANCE</h1>
+
+    <section class="section">
+      <h2>Principes</h2>
+      <p>Les contributeurs sont copropriétaires des jeux de données agrégés. Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs.</p>
+    </section>
+
+    <section class="section">
+      <h2>Comité représentatif</h2>
+      <p>Composition initiale : 5 membres volontaires élus par les contributeurs inscrits. Mandat : 1 an renouvelable. Rôle : valider les usages des données, arbitrer les demandes d’accès, superviser la publication.</p>
+    </section>
+
+    <section class="section">
+      <h2>Processus de décision</h2>
+      <p>Propositions soumises sur le dépôt public (issue). Vote en ligne asynchrone sur une période de 7 jours. Quorum : 10 % des contributeurs inscrits ou 50 contributeurs, selon le plus petit.</p>
+    </section>
+
+    <section class="section">
+      <h2>Modifications</h2>
+      <p>Toute modification de la gouvernance doit être approuvée par vote du comité et consultation publique.</p>
+    </section>
+  </main>
+</body>
+</html>
+```
+
+#### `PRIVACY.html`
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Politique vie privée — Veille Citoyenne Ludifiée</title>
+  <style>body{font-family:system-ui,Arial;margin:20px;background:#f7f8fb;color:#111}.wrap{max-width:900px;margin:0 auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.04)}h1{margin-top:0}.section{margin-top:12px}</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Politique vie privée</h1>
+
+    <section class="section">
+      <h2>Principes</h2>
+      <p><strong>Base légale</strong> : consentement explicite. <strong>Minimisation</strong> : seules les données nécessaires sont collectées. <strong>Anonymisation</strong> : suppression des identifiants directs avant publication.</p>
+    </section>
+
+    <section class="section">
+      <h2>Procédure de retrait</h2>
+      <p>Envoyer une demande via l’adresse indiquée sur la page. Le comité traite la demande et retire les données identifiables dans un délai de 30 jours, sauf si la donnée a déjà été intégrée de façon irréversible dans un jeu agrégé (les contributeurs en seront informés).</p>
+    </section>
+
+    <section class="section">
+      <h2>Durée de conservation</h2>
+      <p>3 ans pour données brutes; jeux agrégés publiés indéfiniment sous licence ODbL.</p>
+    </section>
+
+    <section class="section">
+      <h2>Sécurité</h2>
+      <p>Backups chiffrés. Accès admin limité et journalisé.</p>
+    </section>
+  </main>
+</body>
+</html>
+```
+
+#### `README.html`
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>README — Mise en ligne rapide</title>
+  <style>body{font-family:system-ui,Arial;margin:20px;background:#f7f8fb;color:#111}.wrap{max-width:900px;margin:0 auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.04)}h1{margin-top:0}.step{margin-top:12px}</style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>README — Mise en ligne rapide en 48 h</h1>
+
+    <div class="step">
+      <h2>Étapes</h2>
+      <ol>
+        <li>Créer un dépôt GitHub public.</li>
+        <li>Copier les fichiers fournis (index.html, form.html, GOVERNANCE.html, PRIVACY.html, README.html, data_sample.csv) dans le dépôt.</li>
+        <li>Créer le formulaire sur Framaforms ou Google Forms en utilisant le modèle fourni. Tester l’export CSV.</li>
+        <li>Mettre en ligne la page statique via GitHub Pages ou Netlify en utilisant index.html.</li>
+        <li>Publier le premier CSV anonymisé dans le dépôt (data/data_sample.csv).</li>
+        <li>Partager le lien dans 2 communautés locales pour premiers tests.</li>
+      </ol>
+    </div>
+
+    <div class="step">
+      <h2>Outils recommandés</h2>
+      <ul>
+        <li>Formulaire : Framaforms ou Google Forms.</li>
+        <li>Hébergement page : GitHub Pages ou Netlify.</li>
+        <li>Dépôt : GitHub ou GitLab.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
+```
+
+#### `data_sample.csv` (contenu)
+```csv
+date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact
+2025-12-30T12:34:00,Exampleville,urbanisme,"Trottoir endommagé devant école","Trottoir fissuré sur 10m, risque pour poussettes",http://example.org/photo.jpg,public,oui,non
+```
+
+---
+
+### Instructions rapides pour créer le ZIP localement
+
+- Enregistrez chaque bloc ci‑dessous dans un fichier portant le nom indiqué (`index.html`, `form.html`, `GOVERNANCE.html`, `PRIVACY.html`, `README.html`, `data_sample.csv`).  
+- Sur macOS ou Linux, ouvrez un terminal dans le dossier contenant ces fichiers et exécutez :  
+```bash
+zip -r veille_citoyenne.zip index.html form.html GOVERNANCE.html PRIVACY.html README.html data_sample.csv
+```
+- Sur Windows, sélectionnez les fichiers → clic droit → Envoyer vers → Dossier compressé → renommez `veille_citoyenne.zip`.
+
+---
+
+### Prochaine étape que je peux faire maintenant
+
+Je peux générer un **message court prêt à poster** pour lancer la première diffusion dans des communautés locales (texte optimisé pour forums et réseaux locaux). Voulez‑vous que je le prépare et l’adapte à Bruxelles en français maintenant.
+
+---
+
+**Résumé rapide :** **On peut construire un dashboard « ultra‑fonctionnel » sécurisé, auditable et open‑source en combinant une pile observabilité (Grafana/Prometheus/ELK), une ingestion résiliente (Kafka/Airbyte), une authentification forte (Keycloak + MFA) et une gouvernance des données (CivicNet‑style) — déployable en self‑hosted pour garder le contrôle et la confidentialité**.  
+
+---
+
+### Comparaison rapide des options techniques
+| Option | Points forts | Limites | Idéal pour |
+|---|---:|---|---|
+| **Grafana + Prometheus + PostgreSQL** | Temps de mise en œuvre court; excellent pour métriques temps réel | Moins orienté BI SQL complexe | Monitoring temps réel, alerting |
+| **Apache Superset + PostgreSQL** | BI SQL riche, tableaux interactifs | Moins adapté au temps réel | Analyses exploratoires et rapports | 
+| **ELK (Elasticsearch + Logstash + Kibana)** | Recherche texte, logs, corrélation d’événements | Coût mémoire; tuning nécessaire | Analyse de logs et corrélation incidents |
+| **Stack personnalisé + CivicNet** | Gouvernance, principes civiques intégrés; auditabilité | Plus lourd à monter | Plateforme civique complète, gouvernance des données |
+
+> Sources: .
+
+---
+
+### Architecture recommandée (haute sécurité, asynchrone tolerant)
+1. **Ingestion** : formulaires → Airbyte/N8N → Kafka (buffer asynchrone) → stockage brut (S3 chiffré).  
+2. **Traitement** : jobs batch (Airflow) pour anonymisation, enrichissement, agrégation.  
+3. **Stockage** : **PostgreSQL** pour jeux agrégés; **Elasticsearch** pour recherche et logs.  
+4. **Visualisation** : **Grafana** pour métriques/alertes temps réel; **Superset** pour dashboards analytiques et exports.  
+5. **Auth & gouvernance** : **Keycloak** (OAuth2/OIDC, RBAC, MFA) + **Vault** pour secrets; comité de gouvernance et audit public (inspiré CivicNet) pour traçabilité des usages des données.  
+6. **Sécurité & détection** : WAF, IDS/IPS, journaux centralisés, alerting SIEM; RBAC strict et journaux d’audit immuables.
+
+*(Chaque brique est open‑source et peut être déployée en conteneurs via Kubernetes pour résilience.)*
+
+---
+
+### Fonctionnalités « digne de la NSA » à prioriser
+- **Chiffrement at‑rest et in‑transit** (TLS + KMS).  
+- **MFA obligatoire + RBAC granulaire**.  
+- **Audit immuable** (logs horodatés, signatures).  
+- **Data minimization & anonymisation automatique** avant publication.  
+- **Alerting adaptatif** (anomalies, spikes, corrélations multi‑sources).  
+- **Playbooks d’incident** et intégration ticketing.  
+Ces pratiques sont des standards pour dashboards sécurisés et opérationnels.
+
+---
+
+### Roadmap minimal (0 → MVP sécurisé en 8–12 semaines)
+- **Semaine 1–2** : infra GitOps, Keycloak, PostgreSQL, S3 chiffré.  
+- **Semaine 3–5** : pipeline ingestion (Airbyte/N8N → Kafka), anonymisation batch.  
+- **Semaine 6–8** : dashboards Grafana + Superset, alerting, tests d’intrusion basiques.  
+- **Semaine 9–12** : gouvernance publique (GOVERNANCE.md), audits, mise en production.
+
+---
+
+### Risques et mitigations (détaillé)
+- **Fuite de données sensibles** → *mitigation* : anonymisation avant export, chiffrement, accès restreint.  
+- **Coût d’indexation Elasticsearch** → *mitigation* : retention policy, cold storage.  
+- **Complexité opérationnelle** → *mitigation* : commencer avec stack réduite (Grafana + PostgreSQL) puis monter en complexité.  
+Ces points suivent les bonnes pratiques d’intégration sécurité/observabilité.
+
+---
+
+### Prochaine étape que je peux livrer maintenant
+Je peux **générer l’architecture IaC (exemples Terraform + Helm values)** et un **playbook de sécurité** minimal prêt à déployer en Kubernetes, ou produire un **prototype Grafana+Postgres** Docker Compose pour tests locaux. Dites lequel vous voulez que je prépare en premier.
+
+
+---
+
+### Aperçu du dashboard (HTML/CSS/JS prêt à déployer)
+Voici un **dashboard autonome** en pur HTML/CSS/JS, conçu pour GitHub Pages. Il inclut :  
+- **Tableau de bord interactif** (cartes, graphiques, table de données).  
+- **Import CSV** et visualisation instantanée.  
+- **Anonymisation minimale** côté client avant export.  
+- **Mode offline basique** (Service Worker pour cache).  
+- **Design responsive** et accessible.  
+
+Je fournis ci‑dessous tous les fichiers à copier : `index.html`, `styles.css`, `app.js`, `data_sample.csv`, `GOVERNANCE.md`, `PRIVACY.md`. Collez chaque bloc dans un fichier et poussez le dépôt sur GitHub, puis activez GitHub Pages.
+
+---
+
+### Fichiers — `index.html`
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Veille Citoyenne Ludifiée — Dashboard</title>
+  <meta name="description" content="Dashboard de veille citoyenne — import CSV, carte, graphiques, export anonymisé" />
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Veille Citoyenne — Dashboard</h1>
+      <p class="tag">Collecte citoyenne · Données copropriétaires · Silence radio toléré</p>
+    </div>
+    <nav class="actions">
+      <label class="file-btn">
+        Importer CSV
+        <input id="file-input" type="file" accept=".csv,text/csv" />
+      </label>
+      <button id="download-btn" class="btn">Exporter anonymisé</button>
+      <a class="btn ghost" href="GOVERNANCE.md" target="_blank">Gouvernance</a>
+      <a class="btn ghost" href="PRIVACY.md" target="_blank">Vie privée</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="panel" id="summary">
+      <h2>Résumé</h2>
+      <div class="cards">
+        <div class="card"><strong id="count">0</strong><span>Signalements</span></div>
+        <div class="card"><strong id="unique-places">0</strong><span>Lieux uniques</span></div>
+        <div class="card"><strong id="last-updated">—</strong><span>Dernière mise à jour</span></div>
+      </div>
+    </section>
+
+    <section class="panel" id="map-section">
+      <h2>Carte (géolocalisation approximative)</h2>
+      <div id="map" class="map">La carte s'affiche ici</div>
+      <p class="hint">Si vos données n'ont pas de coordonnées, la carte place les signalements par commune/code postal.</p>
+    </section>
+
+    <section class="panel" id="charts">
+      <h2>Graphiques</h2>
+      <div class="grid-2">
+        <canvas id="typeChart"></canvas>
+        <canvas id="timeChart"></canvas>
+      </div>
+    </section>
+
+    <section class="panel" id="table-section">
+      <h2>Données (aperçu)</h2>
+      <div class="table-wrap">
+        <table id="data-table" aria-live="polite">
+          <thead>
+            <tr><th>Date</th><th>Commune</th><th>Type</th><th>Description</th><th>Sensibilité</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" id="controls">
+      <h2>Filtres & utilitaires</h2>
+      <div class="controls-row">
+        <select id="filter-type"><option value="">Tous types</option></select>
+        <input id="filter-commune" placeholder="Filtrer par commune / code postal" />
+        <button id="apply-filters" class="btn">Appliquer</button>
+        <button id="reset-filters" class="btn ghost">Réinitialiser</button>
+      </div>
+      <div class="controls-row small">
+        <label><input id="anonymize-toggle" type="checkbox" checked /> Anonymiser avant export</label>
+        <button id="clear-data" class="btn danger">Supprimer toutes les données locales</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Prototype open‑source · Hébergé sur GitHub Pages · Données sous contrôle des contributeurs</small>
+  </footer>
+
+  <!-- Librairies légères via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</body>
+</html>
+```
+
+---
+
+### Fichiers — `styles.css`
+```css
+:root{
+  --bg:#f6f8fb;--card:#fff;--accent:#0b6efd;--muted:#6b7280;--danger:#e11d48;
+  --maxw:1100px;--radius:10px
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#0b1220;background:var(--bg);margin:0;padding:18px;display:flex;flex-direction:column;align-items:center}
+.topbar{width:100%;max-width:var(--maxw);display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.brand h1{margin:0;font-size:1.2rem}
+.brand .tag{margin:4px 0 0;color:var(--muted);font-size:0.9rem}
+.actions{display:flex;gap:8px;align-items:center}
+.file-btn{background:#fff;border:1px dashed #e6e9ef;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--muted)}
+.file-btn input{display:none}
+.btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-weight:600}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,253,0.12)}
+.btn.danger{background:var(--danger)}
+.container{width:100%;max-width:var(--maxw);display:grid;grid-template-columns:1fr;gap:14px}
+.panel{background:var(--card);padding:14px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,20,40,0.04)}
+.cards{display:flex;gap:12px}
+.card{flex:1;padding:12px;border-radius:8px;background:#f8fafc;text-align:center}
+.card strong{display:block;font-size:1.4rem}
+.map{height:320px;border-radius:8px;border:1px solid #eef2ff;background:linear-gradient(180deg,#fff,#fbfdff);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.table-wrap{overflow:auto}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-bottom:1px solid #f1f5f9;text-align:left;font-size:0.95rem}
+.controls-row{display:flex;gap:8px;align-items:center;margin-top:8px}
+.controls-row input, .controls-row select{padding:8px;border-radius:8px;border:1px solid #e6e9ef}
+.hint{color:var(--muted);font-size:0.9rem;margin-top:8px}
+.footer{margin-top:12px;color:var(--muted);font-size:0.9rem}
+.small{font-size:0.9rem;color:var(--muted)}
+@media(max-width:900px){.grid-2{grid-template-columns:1fr}.topbar{flex-direction:column;align-items:flex-start;gap:8px}}
+```
+
+---
+
+### Fichiers — `app.js`
+```javascript
+// app.js — Dashboard client-side (pure JS, zero backend)
+// Minimal dependencies: Chart.js, Leaflet (loaded via CDN in index.html)
+
+const state = {
+  rows: [], // internal normalized rows
+  map: null,
+  markers: [],
+  charts: {}
+};
+
+// Utility: parse CSV (simple)
+function parseCSV(text) {
+  const lines = text.trim().split(/\r?\n/);
+  const headers = lines.shift().split(',').map(h => h.trim());
+  return lines.map(line => {
+    const cols = line.split(',').map(c => c.trim().replace(/^"|"$/g,''));
+    const obj = {};
+    headers.forEach((h,i)=> obj[h]=cols[i]||'');
+    return obj;
+  });
+}
+
+// Minimal geocode by commune -> fake lat/lng mapping for demo
+const geoCache = {};
+function geocode(commune) {
+  if(!commune) return null;
+  if(geoCache[commune]) return geoCache[commune];
+  // deterministic pseudo-random but stable coords around Brussels for demo
+  const seed = Array.from(commune).reduce((s,c)=>s+c.charCodeAt(0),0);
+  const lat = 50.85 + ((seed % 100) - 50) * 0.0015;
+  const lng = 4.35 + ((seed % 100) - 50) * 0.0015;
+  const coord = {lat, lng};
+  geoCache[commune] = coord;
+  return coord;
+}
+
+// Anonymize row (client-side) before export
+function anonymizeRow(r) {
+  const copy = {...r};
+  // remove any obvious PII fields if present
+  delete copy['email'];
+  delete copy['phone'];
+  // fuzz date to day only
+  if(copy.date) copy.date = copy.date.split('T')[0];
+  // remove details if marked private
+  if(copy.niveau_sensibilite && copy.niveau_sensibilite.toLowerCase().includes('priv')) {
+    copy.details = '[privé]';
+  }
+  return copy;
+}
+
+// Render functions
+function renderSummary() {
+  document.getElementById('count').textContent = state.rows.length;
+  const places = new Set(state.rows.map(r=>r.commune).filter(Boolean)).size;
+  document.getElementById('unique-places').textContent = places;
+  document.getElementById('last-updated').textContent = state.rows.length ? new Date().toLocaleString() : '—';
+}
+
+function renderTable(rows) {
+  const tbody = document.querySelector('#data-table tbody');
+  tbody.innerHTML = '';
+  rows.slice(0,200).forEach(r=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${r.date||''}</td><td>${r.commune||''}</td><td>${r.type_observation||''}</td><td>${r.description_courte||''}</td><td>${r.niveau_sensibilite||''}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+function renderFilters() {
+  const sel = document.getElementById('filter-type');
+  const types = Array.from(new Set(state.rows.map(r=>r.type_observation).filter(Boolean))).sort();
+  sel.innerHTML = '<option value="">Tous types</option>' + types.map(t=>`<option>${t}</option>`).join('');
+}
+
+// Map init
+function initMap() {
+  const map = L.map('map', {attributionControl:false}).setView([50.85,4.35], 11);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19}).addTo(map);
+  state.map = map;
+}
+
+function renderMap() {
+  if(!state.map) initMap();
+  state.markers.forEach(m=> state.map.removeLayer(m));
+  state.markers = [];
+  state.rows.forEach(r=>{
+    const coord = geocode(r.commune);
+    if(coord) {
+      const m = L.circleMarker([coord.lat, coord.lng], {radius:6, color:'#0b6efd', fillOpacity:0.7}).addTo(state.map);
+      m.bindPopup(`<strong>${r.type_observation||'Signalement'}</strong><br>${r.commune||''}<br>${r.description_courte||''}`);
+      state.markers.push(m);
+    }
+  });
+  if(state.markers.length) {
+    const group = L.featureGroup(state.markers);
+    state.map.fitBounds(group.getBounds().pad(0.2));
+  }
+}
+
+// Charts
+function initCharts() {
+  const typeCtx = document.getElementById('typeChart').getContext('2d');
+  const timeCtx = document.getElementById('timeChart').getContext('2d');
+  state.charts.type = new Chart(typeCtx, {type:'doughnut', data:{labels:[],datasets:[{data:[],backgroundColor:['#0b6efd','#06b6d4','#f59e0b','#ef4444','#10b981']}]}});
+  state.charts.time = new Chart(timeCtx, {type:'bar', data:{labels:[],datasets:[{label:'Signalements',data:[],backgroundColor:'#0b6efd'}]}, options:{scales:{x:{title:{display:true,text:'Date'}},y:{title:{display:true,text:'Nombre'}}}}});
+}
+
+function renderCharts() {
+  // type distribution
+  const counts = {};
+  state.rows.forEach(r=> counts[r.type_observation] = (counts[r.type_observation]||0)+1);
+  const labels = Object.keys(counts);
+  const data = labels.map(l=>counts[l]);
+  state.charts.type.data.labels = labels;
+  state.charts.type.data.datasets[0].data = data;
+  state.charts.type.update();
+
+  // time series by day
+  const byDay = {};
+  state.rows.forEach(r=>{
+    const d = (r.date||'').split('T')[0] || 'unknown';
+    byDay[d] = (byDay[d]||0)+1;
+  });
+  const days = Object.keys(byDay).sort();
+  state.charts.time.data.labels = days;
+  state.charts.time.data.datasets[0].data = days.map(d=>byDay[d]);
+  state.charts.time.update();
+}
+
+// Persistence (localStorage)
+function saveLocal() {
+  try { localStorage.setItem('vc_rows', JSON.stringify(state.rows)); } catch(e){}
+}
+function loadLocal() {
+  try {
+    const raw = localStorage.getItem('vc_rows');
+    if(raw) state.rows = JSON.parse(raw);
+  } catch(e){}
+}
+
+// Handlers
+function handleFile(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const parsed = parseCSV(e.target.result);
+      // normalize keys to expected names
+      const normalized = parsed.map(r=>({
+        date: r.date || r['Date'] || r['date'] || '',
+        commune: r.commune || r['Commune'] || r['commune'] || r['commune_code'] || '',
+        type_observation: r.type_observation || r['Type'] || r['type_observation'] || '',
+        description_courte: r.description_courte || r['Description'] || r['description_courte'] || '',
+        details: r.details || r['Details'] || '',
+        preuve_url: r.preuve_url || r['Preuve'] || '',
+        niveau_sensibilite: r.niveau_sensibilite || r['Sensibilite'] || r['niveau_sensibilite'] || '',
+        consentement: r.consentement || r['Consentement'] || 'oui',
+        autorisation_contact: r.autorisation_contact || r['AutorisationContact'] || 'non'
+      }));
+      state.rows = state.rows.concat(normalized);
+      saveLocal();
+      refreshAll();
+    } catch(err) {
+      alert('Erreur lecture CSV : ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function exportAnonymized() {
+  const anonymize = document.getElementById('anonymize-toggle').checked;
+  const rows = anonymize ? state.rows.map(anonymizeRow) : state.rows;
+  const headers = Object.keys(rows[0]||{date:'',commune:'',type_observation:'',description_courte:'',details:'',preuve_url:'',niveau_sensibilite:'',consentement:'',autorisation_contact:''});
+  const csv = [headers.join(',')].concat(rows.map(r=>headers.map(h=>`"${(r[h]||'').toString().replace(/"/g,'""')}"`).join(','))).join('\n');
+  const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'veille_citoyenne_export.csv';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+// UI wiring
+function refreshAll() {
+  renderSummary();
+  renderTable(state.rows);
+  renderFilters();
+  renderMap();
+  renderCharts();
+}
+
+function setupUI() {
+  document.getElementById('file-input').addEventListener('change', e=>{
+    const f = e.target.files[0];
+    if(f) handleFile(f);
+    e.target.value = '';
+  });
+  document.getElementById('download-btn').addEventListener('click', exportAnonymized);
+  document.getElementById('apply-filters').addEventListener('click', ()=>{
+    const type = document.getElementById('filter-type').value;
+    const commune = document.getElementById('filter-commune').value.trim().toLowerCase();
+    const filtered = state.rows.filter(r=>{
+      if(type && r.type_observation !== type) return false;
+      if(commune && !(r.commune||'').toLowerCase().includes(commune)) return false;
+      return true;
+    });
+    renderTable(filtered);
+  });
+  document.getElementById('reset-filters').addEventListener('click', ()=> renderTable(state.rows));
+  document.getElementById('clear-data').addEventListener('click', ()=>{
+    if(confirm('Supprimer toutes les données locales ? Cette action est irréversible.')) {
+      state.rows = [];
+      saveLocal();
+      refreshAll();
+    }
+  });
+}
+
+// Init
+window.addEventListener('load', ()=>{
+  loadLocal();
+  initCharts();
+  initMap();
+  setupUI();
+  refreshAll();
+});
+
+// Service worker registration for offline caching (optional)
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+```
+
+---
+
+### Fichiers additionnels (texte) — `data_sample.csv`
+```csv
+date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact
+2025-12-30T12:34:00,Exampleville,urbanisme,"Trottoir endommagé devant école","Trottoir fissuré sur 10m, risque pour poussettes",http://example.org/photo.jpg,public,oui,non
+```
+
+---
+
+### Fichiers additionnels — gouvernance et vie privée
+`GOVERNANCE.md`
+```markdown
+# GOVERNANCE
+
+Les contributeurs sont copropriétaires des jeux de données agrégés. Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs.
+
+Comité initial : 5 membres volontaires élus par les contributeurs inscrits. Mandat 1 an. Processus de décision : propositions sur le dépôt public, vote asynchrone 7 jours, quorum 10 % ou 50 contributeurs.
+```
+
+`PRIVACY.md`
+```markdown
+# PRIVACY
+
+Base légale : consentement explicite. Minimisation : seules les données nécessaires sont collectées. Anonymisation : suppression des identifiants directs avant publication. Durée de conservation : 3 ans pour données brutes; jeux agrégés publiés indéfiniment sous licence ODbL.
+```
+
+---
+
+### Optionnel mais recommandé — `sw.js` (Service Worker minimal)
+```javascript
+const CACHE = 'vc-cache-v1';
+const ASSETS = ['/', '/index.html', '/styles.css', '/app.js', '/data_sample.csv'];
+
+self.addEventListener('install', e => {
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  self.skipWaiting();
+});
+self.addEventListener('fetch', e => {
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
+});
+```
+
+---
+
+### Déploiement rapide sur GitHub Pages (instructions)
+1. Créez un nouveau dépôt public sur GitHub.  
+2. Ajoutez les fichiers ci‑dessus à la racine du dépôt (`index.html`, `styles.css`, `app.js`, `sw.js`, `manifest.json` optionnel, `data_sample.csv`, `GOVERNANCE.md`, `PRIVACY.md`).  
+3. Poussez sur la branche `main`.  
+4. Dans les paramètres du dépôt → Pages, sélectionnez la branche `main` et le dossier `/ (root)`. Activez Pages.  
+5. Attendez quelques minutes, votre site sera disponible à `https://<votre‑utilisateur>.github.io/<votre‑repo>/`.
+
+---
+
+### Sécurité et confidentialité intégrées
+- **Anonymisation client** avant export pour limiter fuite de PII.  
+- **Stockage local** par défaut (aucun backend), ce qui permet de garder le contrôle des données.  
+- **Service Worker** pour fonctionnement offline et résilience.  
+- **Conseil** : si vous ajoutez un backend plus tard, appliquez chiffrement at‑rest, RBAC et journaux d’audit.
+
+---
+
+### Prochaine étape que je peux fournir immédiatement
+Je peux **générer un `manifest.json` optimisé**, **ajouter des micro‑interactions CSS**, ou **fournir une version allégée sans Leaflet/Chart.js** pour un site ultra‑léger. J’ai préparé le code complet ci‑dessus prêt à coller.
+
+---
+
+### Déploiement rapide sur GitHub Pages
+1. **Créer le dépôt** : sur GitHub, nouveau dépôt public (nom au choix).  
+2. **Ajouter les fichiers** : `index.html`, `styles.css`, `app.js`, `sw.js` (optionnel), `data_sample.csv`, `GOVERNANCE.md`, `PRIVACY.md`, `manifest.json` (optionnel).  
+3. **Commit & push** sur la branche `main`.  
+4. **Activer Pages** : Settings → Pages → Branch `main` / folder `root` → Save. L’URL publique apparaît en quelques minutes.  
+5. **Tester** : ouvrir l’URL, importer `data_sample.csv` pour vérifier carte, tableaux et export.
+
+---
+
+### Personnalisation prioritaire (faible effort → fort impact)
+- **Remplacer la géolocalisation pseudo‑aléatoire** par un mapping réel (CSV `commune → lat,lng`) pour précision.  
+- **Adapter les en‑têtes CSV** si votre formulaire produit d’autres noms de colonnes (normalisation dans `app.js`).  
+- **Branding & textes** : modifier `index.html` et `GOVERNANCE.md` pour refléter votre charte et contacts.  
+- **Ajouter un badge de version** (meta dans `index.html`) pour traçabilité des déploiements.
+
+---
+
+### Sécurité et confidentialité pratiques
+- **Aucun backend par défaut** : les données restent locales → bon pour confidentialité initiale.  
+- **Si vous ajoutez un backend plus tard** : chiffrement at‑rest (S3/KMS ou PostgreSQL chiffré), TLS, RBAC (Keycloak ou OAuth).  
+- **Anonymisation renforcée** : supprimer/masquer champs libres, tronquer timestamps, généraliser lieux (commune → département).  
+- **Logs d’audit** : conservez un changelog public (`CHANGELOG.md`) pour transparence des modifications de gouvernance.
+
+---
+
+### Améliorations techniques faciles à intégrer
+- **Pagination côté client** pour la table (limiter DOM).  
+- **Lazy‑loading des marqueurs** si >1000 points (cluster Leaflet).  
+- **Filtrage avancé** : intervalle de dates, sensibilité, mots‑clés.  
+- **Export sélectif** : permettre export des résultats filtrés seulement.  
+- **Visualisations supplémentaires** : heatmap (Leaflet.heat), timeline interactive.
+
+---
+
+### Performance et maintenance
+- **Minifier** `styles.css` et `app.js` avant push pour réduire latence.  
+- **CDN** pour Chart.js et Leaflet (déjà utilisés) ; envisager bundle local si offline strict.  
+- **Backups** : sauvegarder `data_sample.csv` exporté régulièrement dans un dépôt privé chiffré.  
+- **Tests** : importer CSVs variés pour valider parsing et normalisation.
+
+---
+
+### Prochaine livraison que je peux fournir immédiatement
+- `manifest.json` PWA optimisé et icônes de base.  
+- Version minifiée de `app.js` + `styles.css`.  
+- Script `commune→coords` (CSV) pour remplacer la géocodification pseudo‑aléatoire.  
+
+Je prépare l’un de ces éléments tout de suite ; je vais générer le **manifest.json** et les icônes de base si vous voulez.
+
+---
+
+### Fichiers complets à coller (manifest, icônes SVG, versions minifiées, mapping communes)
+
+Ci‑dessous vous avez **tout** le nécessaire prêt à copier‑coller : `manifest.json`, trois icônes SVG (favicon, icon 192, icon 512), versions minifiées de `styles.css` et `app.js`, un fichier `commune_coords.csv` pour remplacer la géocodification pseudo‑aléatoire, et un `sw.js` légèrement amélioré. Enregistrez chaque bloc dans un fichier portant le nom indiqué et poussez dans votre dépôt GitHub Pages.
+
+---
+
+### `manifest.json`
+```json
+{
+  "name": "Veille Citoyenne — Dashboard",
+  "short_name": "VeilleCitoyenne",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#0b6efd",
+  "description": "Dashboard open-source pour collecte citoyenne, export anonymisé et co-gestion des données.",
+  "icons": [
+    { "src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
+```
+
+---
+
+### Icônes SVG (copier chaque bloc dans un fichier `.svg`)
+
+#### `favicon.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0b6efd"/>
+  <g fill="#fff" transform="translate(8,8)">
+    <rect x="0" y="0" width="48" height="8" rx="3"/>
+    <rect x="0" y="14" width="36" height="8" rx="3"/>
+    <rect x="0" y="28" width="24" height="8" rx="3"/>
+  </g>
+</svg>
+```
+
+#### `icon-192.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="28" fill="#0b6efd"/>
+  <g transform="translate(36,36)" fill="#fff">
+    <rect x="0" y="0" width="120" height="20" rx="8"/>
+    <rect x="0" y="36" width="90" height="20" rx="8"/>
+    <rect x="0" y="72" width="60" height="20" rx="8"/>
+  </g>
+</svg>
+```
+
+#### `icon-512.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#0b6efd"/>
+  <g transform="translate(120,120)" fill="#fff">
+    <rect x="0" y="0" width="272" height="48" rx="16"/>
+    <rect x="0" y="96" width="204" height="48" rx="16"/>
+    <rect x="0" y="192" width="136" height="48" rx="16"/>
+  </g>
+</svg>
+```
+
+---
+
+### `commune_coords.csv` (échantillon et format)
+Copiez ce fichier et complétez avec vos communes cibles. Le format est `commune,lat,lng`. Utilisez ce CSV pour remplacer la fonction `geocode()` dans `app.js` (voir instructions plus bas).
+
+```csv
+commune,lat,lng
+Bruxelles,50.8503,4.3517
+Ixelles,50.8225,4.3664
+Saint-Gilles,50.8356,4.3499
+Schaerbeek,50.8642,4.3756
+Anderlecht,50.8350,4.3333
+Uccle,50.7975,4.3456
+Woluwe-Saint-Lambert,50.8399,4.4146
+Woluwe-Saint-Pierre,50.8275,4.4244
+Forest,50.8206,4.3411
+Evere,50.8731,4.3922
+```
+
+---
+
+### `sw.js` (service worker amélioré, cache versionné)
+```javascript
+const CACHE = 'vc-cache-v2';
+const ASSETS = ['/', '/index.html', '/styles.css', '/app.js', '/data_sample.csv', '/favicon.svg'];
+
+self.addEventListener('install', e => {
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  self.skipWaiting();
+});
+self.addEventListener('activate', e => {
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.map(k => k !== CACHE ? caches.delete(k) : null))));
+  self.clients.claim();
+});
+self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') return;
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(resp => {
+    if (!resp || resp.status !== 200 || resp.type !== 'basic') return resp;
+    const clone = resp.clone();
+    caches.open(CACHE).then(c => c.put(e.request, clone));
+    return resp;
+  })).catch(()=> caches.match('/index.html')));
+});
+```
+
+---
+
+### `styles.min.css` (version minifiée)
+```css
+:root{--bg:#f6f8fb;--card:#fff;--accent:#0b6efd;--muted:#6b7280;--danger:#e11d48;--maxw:1100px;--radius:10px}*{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#0b1220;background:var(--bg);margin:0;padding:18px;display:flex;flex-direction:column;align-items:center}.topbar{width:100%;max-width:var(--maxw);display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.brand h1{margin:0;font-size:1.2rem}.brand .tag{margin:4px 0 0;color:var(--muted);font-size:0.9rem}.actions{display:flex;gap:8px;align-items:center}.file-btn{background:#fff;border:1px dashed #e6e9ef;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--muted)}.file-btn input{display:none}.btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-weight:600}.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,253,0.12)}.btn.danger{background:var(--danger)}.container{width:100%;max-width:var(--maxw);display:grid;grid-template-columns:1fr;gap:14px}.panel{background:var(--card);padding:14px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,20,40,0.04)}.cards{display:flex;gap:12px}.card{flex:1;padding:12px;border-radius:8px;background:#f8fafc;text-align:center}.card strong{display:block;font-size:1.4rem}.map{height:320px;border-radius:8px;border:1px solid #eef2ff;background:linear-gradient(180deg,#fff,#fbfdff);display:flex;align-items:center;justify-content:center;color:var(--muted)}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse}th,td{padding:8px;border-bottom:1px solid #f1f5f9;text-align:left;font-size:0.95rem}.controls-row{display:flex;gap:8px;align-items:center;margin-top:8px}.controls-row input,.controls-row select{padding:8px;border-radius:8px;border:1px solid #e6e9ef}.hint{color:var(--muted);font-size:0.9rem;margin-top:8px}.footer{margin-top:12px;color:var(--muted);font-size:0.9rem}.small{font-size:0.9rem;color:var(--muted)}@media(max-width:900px){.grid-2{grid-template-columns:1fr}.topbar{flex-direction:column;align-items:flex-start;gap:8px}}
+```
+
+---
+
+### `app.min.js` (version minifiée — remplace `app.js`)
+> **Remarque** : ce minifié contient la logique complète, y compris lecture du CSV `commune_coords.csv` si présent. Collez dans `app.min.js` et remplacez l’ancien `app.js` dans `index.html` (ou renommez).
+
+```javascript
+const state={rows:[],map:null,markers:[],charts:{},communeMap:{}};function parseCSV(t){const l=t.trim().split(/\r?\n/);const h=l.shift().split(',').map(x=>x.trim());return l.map(line=>{const cols=line.split(',').map(c=>c.trim().replace(/^"|"$/g,''));const o={};h.forEach((hh,i)=>o[hh]=cols[i]||'');return o})}function anonymizeRow(r){const c=Object.assign({},r);delete c.email;delete c.phone;if(c.date)c.date=c.date.split('T')[0];if(c.niveau_sensibilite&&c.niveau_sensibilite.toLowerCase().includes('priv'))c.details='[privé]';return c}function renderSummary(){document.getElementById('count').textContent=state.rows.length;document.getElementById('unique-places').textContent=new Set(state.rows.map(r=>r.commune).filter(Boolean)).size;document.getElementById('last-updated').textContent=state.rows.length?new Date().toLocaleString():'—'}function renderTable(rows){const tbody=document.querySelector('#data-table tbody');tbody.innerHTML='';rows.slice(0,200).forEach(r=>{const tr=document.createElement('tr');tr.innerHTML=`<td>${r.date||''}</td><td>${r.commune||''}</td><td>${r.type_observation||''}</td><td>${r.description_courte||''}</td><td>${r.niveau_sensibilite||''}</td>`;tbody.appendChild(tr)})}function renderFilters(){const sel=document.getElementById('filter-type');const types=Array.from(new Set(state.rows.map(r=>r.type_observation).filter(Boolean))).sort();sel.innerHTML='<option value="">Tous types</option>'+types.map(t=>`<option>${t}</option>`).join('')}function initMap(){state.map=L.map('map',{attributionControl:false}).setView([50.85,4.35],11);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19}).addTo(state.map)}function renderMap(){if(!state.map)initMap();state.markers.forEach(m=>state.map.removeLayer(m));state.markers=[];state.rows.forEach(r=>{const coord=geocode(r.commune);if(coord){const m=L.circleMarker([coord.lat,coord.lng],{radius:6,color:'#0b6efd',fillOpacity:0.7}).addTo(state.map);m.bindPopup(`<strong>${r.type_observation||'Signalement'}</strong><br>${r.commune||''}<br>${r.description_courte||''}`);state.markers.push(m)}});if(state.markers.length){const group=L.featureGroup(state.markers);state.map.fitBounds(group.getBounds().pad(0.2))}}function initCharts(){const typeCtx=document.getElementById('typeChart').getContext('2d');const timeCtx=document.getElementById('timeChart').getContext('2d');state.charts.type=new Chart(typeCtx,{type:'doughnut',data:{labels:[],datasets:[{data:[],backgroundColor:['#0b6efd','#06b6d4','#f59e0b','#ef4444','#10b981']}]}});state.charts.time=new Chart(timeCtx,{type:'bar',data:{labels:[],datasets:[{label:'Signalements',data:[],backgroundColor:'#0b6efd'}]},options:{scales:{x:{title:{display:true,text:'Date'}},y:{title:{display:true,text:'Nombre'}}}})}function renderCharts(){const counts={};state.rows.forEach(r=>counts[r.type_observation]=(counts[r.type_observation]||0)+1);const labels=Object.keys(counts);const data=labels.map(l=>counts[l]);state.charts.type.data.labels=labels;state.charts.type.data.datasets[0].data=data;state.charts.type.update();const byDay={};state.rows.forEach(r=>{const d=(r.date||'').split('T')[0]||'unknown';byDay[d]=(byDay[d]||0)+1});const days=Object.keys(byDay).sort();state.charts.time.data.labels=days;state.charts.time.data.datasets[0].data=days.map(d=>byDay[d]);state.charts.time.update()}function saveLocal(){try{localStorage.setItem('vc_rows',JSON.stringify(state.rows))}catch(e){}}function loadLocal(){try{const raw=localStorage.getItem('vc_rows');if(raw)state.rows=JSON.parse(raw)}catch(e){}}function handleFile(file){const reader=new FileReader();reader.onload=e=>{try{const parsed=parseCSV(e.target.result);const normalized=parsed.map(r=>({date:r.date||r['Date']||r['date']||'',commune:r.commune||r['Commune']||r['commune']||r['commune_code']||'',type_observation:r.type_observation||r['Type']||r['type_observation']||'',description_courte:r.description_courte||r['Description']||r['description_courte']||'',details:r.details||r['Details']||'',preuve_url:r.preuve_url||r['Preuve']||'',niveau_sensibilite:r.niveau_sensibilite||r['Sensibilite']||r['niveau_sensibilite']||'',consentement:r.consentement||r['Consentement']||'oui',autorisation_contact:r.autorisation_contact||r['AutorisationContact']||'non'}));state.rows=state.rows.concat(normalized);saveLocal();refreshAll()}catch(err){alert('Erreur lecture CSV : '+err.message)}};reader.readAsText(file)}function exportAnonymized(){const anonymize=document.getElementById('anonymize-toggle').checked;const rows=anonymize?state.rows.map(anonymizeRow):state.rows;const headers=Object.keys(rows[0]||{date:'',commune:'',type_observation:'',description_courte:'',details:'',preuve_url:'',niveau_sensibilite:'',consentement:'',autorisation_contact:''});const csv=[headers.join(',')].concat(rows.map(r=>headers.map(h=>`"${(r[h]||'').toString().replace(/"/g,'""')}"`).join(','))).join('\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='veille_citoyenne_export.csv';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url)}function refreshAll(){renderSummary();renderTable(state.rows);renderFilters();renderMap();renderCharts()}function setupUI(){document.getElementById('file-input').addEventListener('change',e=>{const f=e.target.files[0];if(f)handleFile(f);e.target.value=''});document.getElementById('download-btn').addEventListener('click',exportAnonymized);document.getElementById('apply-filters').addEventListener('click',()=>{const type=document.getElementById('filter-type').value;const commune=document.getElementById('filter-commune').value.trim().toLowerCase();const filtered=state.rows.filter(r=>{if(type&&r.type_observation!==type)return false;if(commune&&!(r.commune||'').toLowerCase().includes(commune))return false;return true});renderTable(filtered)});document.getElementById('reset-filters').addEventListener('click',()=>renderTable(state.rows));document.getElementById('clear-data').addEventListener('click',()=>{if(confirm('Supprimer toutes les données locales ? Cette action est irréversible.')){state.rows=[];saveLocal();refreshAll()}})}function geocode(commune){if(!commune)return null;const key=commune.trim();if(state.communeMap[key])return state.communeMap[key];return pseudoGeocode(commune)}function pseudoGeocode(commune){const seed=Array.from(commune).reduce((s,c)=>s+c.charCodeAt(0),0);const lat=50.85+((seed%100)-50)*0.0015;const lng=4.35+((seed%100)-50)*0.0015;const coord={lat,lng};state.communeMap[commune]=coord;return coord}function loadCommuneCSV(file){const r=new FileReader();r.onload=e=>{try{const parsed=parseCSV(e.target.result);parsed.forEach(row=>{const k=(row.commune||row.Commune||'').trim();if(k)state.communeMap[k]={lat:parseFloat(row.lat||row.Lat||row.LAT),lng:parseFloat(row.lng||row.Lng||row.LNG)}});refreshAll()}catch(err){console.warn('Erreur chargement communes',err)}};r.readAsText(file)}window.addEventListener('load',()=>{loadLocal();initCharts();initMap();setupUI();refreshAll();const communeInput=document.createElement('input');communeInput.type='file';communeInput.accept='.csv';communeInput.style.display='none';communeInput.id='commune-input';document.body.appendChild(communeInput);communeInput.addEventListener('change',e=>{const f=e.target.files[0];if(f)loadCommuneCSV(f);e.target.value=''});const btn=document.createElement('button');btn.className='btn ghost';btn.textContent='Importer mapping communes';btn.style.marginLeft='6px';btn.onclick=()=>communeInput.click();document.querySelector('.actions').appendChild(btn)});if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+```
+
+---
+
+### Remplacement de la géocodification pseudo‑aléatoire par `commune_coords.csv`
+
+1. Ajoutez `commune_coords.csv` à la racine du dépôt (ou modifiez le nom dans le code).  
+2. Le `app.min.js` ci‑dessus inclut un bouton **Importer mapping communes** qui permet d’importer ce CSV côté client et de remplir `state.communeMap`.  
+3. Si vous préférez charger automatiquement au démarrage, ajoutez dans `index.html` un fetch vers `/commune_coords.csv` et parsez‑le avec `parseCSV()` pour remplir `state.communeMap` avant `refreshAll()`.
+
+---
+
+### Instructions finales et checklist avant déploiement
+
+- [ ] Créez ou mettez à jour les fichiers : `index.html` (référencez `styles.min.css` et `app.min.js`), `styles.min.css`, `app.min.js`, `manifest.json`, `sw.js`, `favicon.svg`, `icon-192.svg`, `icon-512.svg`, `commune_coords.csv`, `data_sample.csv`, `GOVERNANCE.md`, `PRIVACY.md`.  
+- [ ] Poussez sur `main` et activez GitHub Pages (branch `main`, root).  
+- [ ] Testez : importer `data_sample.csv`, importer `commune_coords.csv`, vérifier carte, exporter anonymisé.  
+- [ ] Optionnel : minifier `index.html` et activer compression côté CDN si besoin.
+
+---
+
+Si vous voulez, je peux **fournir maintenant** la version finale d’`index.html` déjà adaptée pour charger `styles.min.css` et `app.min.js`, et incluant le bouton « Importer mapping communes » visible (prêt à coller). Je peux aussi générer un **exemple complet de `commune_coords.csv`** pour toute la Belgique si vous le souhaitez.
+
+---
+```html
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Veille Citoyenne — Dashboard</title>
+  <meta name="description" content="Dashboard open-source pour collecte citoyenne, export anonymisé et co-gestion des données." />
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.min.css">
+  <!-- Leaflet & Chart.js via CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script defer src="app.min.js"></script>
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="brand" aria-hidden="false">
+      <h1>Veille Citoyenne — Dashboard</h1>
+      <p class="tag">Collecte citoyenne · Données copropriétaires · Silence radio toléré</p>
+    </div>
+
+    <nav class="actions" role="navigation" aria-label="Actions principales">
+      <label class="file-btn" title="Importer un CSV de signalements">
+        Importer CSV
+        <input id="file-input" type="file" accept=".csv,text/csv" aria-label="Importer un fichier CSV de signalements" />
+      </label>
+
+      <button id="download-btn" class="btn" title="Exporter les données (anonymisées si activé)">Exporter anonymisé</button>
+
+      <a class="btn ghost" href="GOVERNANCE.md" target="_blank" rel="noopener">Gouvernance</a>
+      <a class="btn ghost" href="PRIVACY.md" target="_blank" rel="noopener">Vie privée</a>
+    </nav>
+  </header>
+
+  <main class="container" role="main" aria-labelledby="dashboard-title">
+    <h2 id="dashboard-title" class="sr-only">Tableau de bord Veille Citoyenne</h2>
+
+    <section class="panel" id="summary" aria-labelledby="summary-title">
+      <h3 id="summary-title">Résumé</h3>
+      <div class="cards" role="list">
+        <div class="card" role="listitem"><strong id="count">0</strong><span>Signalements</span></div>
+        <div class="card" role="listitem"><strong id="unique-places">0</strong><span>Lieux uniques</span></div>
+        <div class="card" role="listitem"><strong id="last-updated">—</strong><span>Dernière mise à jour</span></div>
+      </div>
+    </section>
+
+    <section class="panel" id="map-section" aria-labelledby="map-title">
+      <h3 id="map-title">Carte (géolocalisation approximative)</h3>
+      <div id="map" class="map" role="region" aria-label="Carte des signalements">La carte s'affiche ici</div>
+      <p class="hint">Si vos données n'ont pas de coordonnées, la carte place les signalements par commune / code postal.</p>
+    </section>
+
+    <section class="panel" id="charts" aria-labelledby="charts-title">
+      <h3 id="charts-title">Graphiques</h3>
+      <div class="grid-2" role="group" aria-label="Graphiques">
+        <canvas id="typeChart" aria-label="Répartition par type" role="img"></canvas>
+        <canvas id="timeChart" aria-label="Série temporelle des signalements" role="img"></canvas>
+      </div>
+    </section>
+
+    <section class="panel" id="table-section" aria-labelledby="table-title">
+      <h3 id="table-title">Données (aperçu)</h3>
+      <div class="table-wrap" role="region" aria-label="Tableau des signalements">
+        <table id="data-table" aria-live="polite">
+          <thead>
+            <tr><th scope="col">Date</th><th scope="col">Commune</th><th scope="col">Type</th><th scope="col">Description</th><th scope="col">Sensibilité</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" id="controls" aria-labelledby="controls-title">
+      <h3 id="controls-title">Filtres & utilitaires</h3>
+
+      <div class="controls-row" role="form" aria-label="Filtres">
+        <select id="filter-type" aria-label="Filtrer par type"><option value="">Tous types</option></select>
+        <input id="filter-commune" placeholder="Filtrer par commune / code postal" aria-label="Filtrer par commune ou code postal" />
+        <button id="apply-filters" class="btn" aria-label="Appliquer les filtres">Appliquer</button>
+        <button id="reset-filters" class="btn ghost" aria-label="Réinitialiser les filtres">Réinitialiser</button>
+      </div>
+
+      <div class="controls-row small" aria-hidden="false">
+        <label><input id="anonymize-toggle" type="checkbox" checked /> Anonymiser avant export</label>
+        <button id="clear-data" class="btn danger" aria-label="Supprimer toutes les données locales">Supprimer toutes les données locales</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <small>Prototype open‑source · Hébergé sur GitHub Pages · Données sous contrôle des contributeurs</small>
+  </footer>
+
+  <!-- Optional: provide a small accessible skip link -->
+  <a class="sr-only" href="#dashboard-title">Aller au tableau de bord</a>
+
+  <!-- Optional: include a small inline script to ensure service worker registration prompt is visible for older browsers (app.min.js already attempts registration) -->
+  <script>
+    // Graceful fallback: if app.min.js didn't register SW, try once more
+    if ('serviceWorker' in navigator && !navigator.serviceWorker.controller) {
+      navigator.serviceWorker.register('sw.js').catch(()=>{});
+    }
+  </script>
+</body>
+</html>
+```
+
+---
+
+### Fichiers restants prêts à coller
+
+Ci‑dessous les fichiers à ajouter à la racine du dépôt après `index.html`. Copiez‑collez chaque bloc dans un fichier portant le nom indiqué.
+
+---
+
+#### `manifest.json`
+```json
+{
+  "name": "Veille Citoyenne — Dashboard",
+  "short_name": "VeilleCitoyenne",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#0b6efd",
+  "description": "Dashboard open-source pour collecte citoyenne, export anonymisé et co-gestion des données.",
+  "icons": [
+    { "src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
+```
+
+---
+
+#### `favicon.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0b6efd"/>
+  <g fill="#fff" transform="translate(8,8)">
+    <rect x="0" y="0" width="48" height="8" rx="3"/>
+    <rect x="0" y="14" width="36" height="8" rx="3"/>
+    <rect x="0" y="28" width="24" height="8" rx="3"/>
+  </g>
+</svg>
+```
+
+---
+
+#### `icon-192.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="28" fill="#0b6efd"/>
+  <g transform="translate(36,36)" fill="#fff">
+    <rect x="0" y="0" width="120" height="20" rx="8"/>
+    <rect x="0" y="36" width="90" height="20" rx="8"/>
+    <rect x="0" y="72" width="60" height="20" rx="8"/>
+  </g>
+</svg>
+```
+
+---
+
+#### `icon-512.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#0b6efd"/>
+  <g transform="translate(120,120)" fill="#fff">
+    <rect x="0" y="0" width="272" height="48" rx="16"/>
+    <rect x="0" y="96" width="204" height="48" rx="16"/>
+    <rect x="0" y="192" width="136" height="48" rx="16"/>
+  </g>
+</svg>
+```
+
+---
+
+#### `styles.min.css`
+```css
+:root{--bg:#f6f8fb;--card:#fff;--accent:#0b6efd;--muted:#6b7280;--danger:#e11d48;--maxw:1100px;--radius:10px}*{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#0b1220;background:var(--bg);margin:0;padding:18px;display:flex;flex-direction:column;align-items:center}.topbar{width:100%;max-width:var(--maxw);display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.brand h1{margin:0;font-size:1.2rem}.brand .tag{margin:4px 0 0;color:var(--muted);font-size:0.9rem}.actions{display:flex;gap:8px;align-items:center}.file-btn{background:#fff;border:1px dashed #e6e9ef;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--muted)}.file-btn input{display:none}.btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;font-weight:600}.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(11,110,253,0.12)}.btn.danger{background:var(--danger)}.container{width:100%;max-width:var(--maxw);display:grid;grid-template-columns:1fr;gap:14px}.panel{background:var(--card);padding:14px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(12,20,40,0.04)}.cards{display:flex;gap:12px}.card{flex:1;padding:12px;border-radius:8px;background:#f8fafc;text-align:center}.card strong{display:block;font-size:1.4rem}.map{height:320px;border-radius:8px;border:1px solid #eef2ff;background:linear-gradient(180deg,#fff,#fbfdff);display:flex;align-items:center;justify-content:center;color:var(--muted)}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse}th,td{padding:8px;border-bottom:1px solid #f1f5f9;text-align:left;font-size:0.95rem}.controls-row{display:flex;gap:8px;align-items:center;margin-top:8px}.controls-row input,.controls-row select{padding:8px;border-radius:8px;border:1px solid #e6e9ef}.hint{color:var(--muted);font-size:0.9rem;margin-top:8px}.footer{margin-top:12px;color:var(--muted);font-size:0.9rem}.small{font-size:0.9rem;color:var(--muted)}@media(max-width:900px){.grid-2{grid-template-columns:1fr}.topbar{flex-direction:column;align-items:flex-start;gap:8px}}
+```
+
+---
+
+#### `app.min.js`
+```javascript
+const state={rows:[],map:null,markers:[],charts:{},communeMap:{}};function parseCSV(t){const l=t.trim().split(/\r?\n/);const h=l.shift().split(',').map(x=>x.trim());return l.map(line=>{const cols=line.split(',').map(c=>c.trim().replace(/^"|"$/g,''));const o={};h.forEach((hh,i)=>o[hh]=cols[i]||'');return o})}function anonymizeRow(r){const c=Object.assign({},r);delete c.email;delete c.phone;if(c.date)c.date=c.date.split('T')[0];if(c.niveau_sensibilite&&c.niveau_sensibilite.toLowerCase().includes('priv'))c.details='[privé]';return c}function renderSummary(){document.getElementById('count').textContent=state.rows.length;document.getElementById('unique-places').textContent=new Set(state.rows.map(r=>r.commune).filter(Boolean)).size;document.getElementById('last-updated').textContent=state.rows.length?new Date().toLocaleString():'—'}function renderTable(rows){const tbody=document.querySelector('#data-table tbody');tbody.innerHTML='';rows.slice(0,200).forEach(r=>{const tr=document.createElement('tr');tr.innerHTML=`<td>${r.date||''}</td><td>${r.commune||''}</td><td>${r.type_observation||''}</td><td>${r.description_courte||''}</td><td>${r.niveau_sensibilite||''}</td>`;tbody.appendChild(tr)})}function renderFilters(){const sel=document.getElementById('filter-type');const types=Array.from(new Set(state.rows.map(r=>r.type_observation).filter(Boolean))).sort();sel.innerHTML='<option value="">Tous types</option>'+types.map(t=>`<option>${t}</option>`).join('')}function initMap(){state.map=L.map('map',{attributionControl:false}).setView([50.85,4.35],11);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19}).addTo(state.map)}function renderMap(){if(!state.map)initMap();state.markers.forEach(m=>state.map.removeLayer(m));state.markers=[];state.rows.forEach(r=>{const coord=geocode(r.commune);if(coord){const m=L.circleMarker([coord.lat,coord.lng],{radius:6,color:'#0b6efd',fillOpacity:0.7}).addTo(state.map);m.bindPopup(`<strong>${r.type_observation||'Signalement'}</strong><br>${r.commune||''}<br>${r.description_courte||''}`);state.markers.push(m)}});if(state.markers.length){const group=L.featureGroup(state.markers);state.map.fitBounds(group.getBounds().pad(0.2))}}function initCharts(){const typeCtx=document.getElementById('typeChart').getContext('2d');const timeCtx=document.getElementById('timeChart').getContext('2d');state.charts.type=new Chart(typeCtx,{type:'doughnut',data:{labels:[],datasets:[{data:[],backgroundColor:['#0b6efd','#06b6d4','#f59e0b','#ef4444','#10b981']}]}});state.charts.time=new Chart(timeCtx,{type:'bar',data:{labels:[],datasets:[{label:'Signalements',data:[],backgroundColor:'#0b6efd'}]},options:{scales:{x:{title:{display:true,text:'Date'}},y:{title:{display:true,text:'Nombre'}}}})}function renderCharts(){const counts={};state.rows.forEach(r=>counts[r.type_observation]=(counts[r.type_observation]||0)+1);const labels=Object.keys(counts);const data=labels.map(l=>counts[l]);state.charts.type.data.labels=labels;state.charts.type.data.datasets[0].data=data;state.charts.type.update();const byDay={};state.rows.forEach(r=>{const d=(r.date||'').split('T')[0]||'unknown';byDay[d]=(byDay[d]||0)+1});const days=Object.keys(byDay).sort();state.charts.time.data.labels=days;state.charts.time.data.datasets[0].data=days.map(d=>byDay[d]);state.charts.time.update()}function saveLocal(){try{localStorage.setItem('vc_rows',JSON.stringify(state.rows))}catch(e){}}function loadLocal(){try{const raw=localStorage.getItem('vc_rows');if(raw)state.rows=JSON.parse(raw)}catch(e){}}function handleFile(file){const reader=new FileReader();reader.onload=e=>{try{const parsed=parseCSV(e.target.result);const normalized=parsed.map(r=>({date:r.date||r['Date']||r['date']||'',commune:r.commune||r['Commune']||r['commune']||r['commune_code']||'',type_observation:r.type_observation||r['Type']||r['type_observation']||'',description_courte:r.description_courte||r['Description']||r['description_courte']||'',details:r.details||r['Details']||'',preuve_url:r.preuve_url||r['Preuve']||'',niveau_sensibilite:r.niveau_sensibilite||r['Sensibilite']||r['niveau_sensibilite']||'',consentement:r.consentement||r['Consentement']||'oui',autorisation_contact:r.autorisation_contact||r['AutorisationContact']||'non'}));state.rows=state.rows.concat(normalized);saveLocal();refreshAll()}catch(err){alert('Erreur lecture CSV : '+err.message)}};reader.readAsText(file)}function exportAnonymized(){const anonymize=document.getElementById('anonymize-toggle').checked;const rows=anonymize?state.rows.map(anonymizeRow):state.rows;const headers=Object.keys(rows[0]||{date:'',commune:'',type_observation:'',description_courte:'',details:'',preuve_url:'',niveau_sensibilite:'',consentement:'',autorisation_contact:''});const csv=[headers.join(',')].concat(rows.map(r=>headers.map(h=>`"${(r[h]||'').toString().replace(/"/g,'""')}"`).join(','))).join('\n');const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='veille_citoyenne_export.csv';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url)}function refreshAll(){renderSummary();renderTable(state.rows);renderFilters();renderMap();renderCharts()}function setupUI(){document.getElementById('file-input').addEventListener('change',e=>{const f=e.target.files[0];if(f)handleFile(f);e.target.value=''});document.getElementById('download-btn').addEventListener('click',exportAnonymized);document.getElementById('apply-filters').addEventListener('click',()=>{const type=document.getElementById('filter-type').value;const commune=document.getElementById('filter-commune').value.trim().toLowerCase();const filtered=state.rows.filter(r=>{if(type&&r.type_observation!==type)return false;if(commune&&!(r.commune||'').toLowerCase().includes(commune))return false;return true});renderTable(filtered)});document.getElementById('reset-filters').addEventListener('click',()=>renderTable(state.rows));document.getElementById('clear-data').addEventListener('click',()=>{if(confirm('Supprimer toutes les données locales ? Cette action est irréversible.')){state.rows=[];saveLocal();refreshAll()}})}function geocode(commune){if(!commune)return null;const key=commune.trim();if(state.communeMap[key])return state.communeMap[key];return pseudoGeocode(commune)}function pseudoGeocode(commune){const seed=Array.from(commune).reduce((s,c)=>s+c.charCodeAt(0),0);const lat=50.85+((seed%100)-50)*0.0015;const lng=4.35+((seed%100)-50)*0.0015;const coord={lat,lng};state.communeMap[commune]=coord;return coord}function loadCommuneCSV(file){const r=new FileReader();r.onload=e=>{try{const parsed=parseCSV(e.target.result);parsed.forEach(row=>{const k=(row.commune||row.Commune||'').trim();if(k)state.communeMap[k]={lat:parseFloat(row.lat||row.Lat||row.LAT),lng:parseFloat(row.lng||row.Lng||row.LNG)}});refreshAll()}catch(err){console.warn('Erreur chargement communes',err)}};r.readAsText(file)}window.addEventListener('load',()=>{loadLocal();initCharts();initMap();setupUI();refreshAll();const communeInput=document.createElement('input');communeInput.type='file';communeInput.accept='.csv';communeInput.style.display='none';communeInput.id='commune-input';document.body.appendChild(communeInput);communeInput.addEventListener('change',e=>{const f=e.target.files[0];if(f)loadCommuneCSV(f);e.target.value=''});const btn=document.createElement('button');btn.className='btn ghost';btn.textContent='Importer mapping communes';btn.style.marginLeft='6px';btn.onclick=()=>communeInput.click();document.querySelector('.actions').appendChild(btn)});if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+```
+
+---
+
+#### `sw.js`
+```javascript
+const CACHE = 'vc-cache-v2';
+const ASSETS = ['/', '/index.html', '/styles.min.css', '/app.min.js', '/data_sample.csv', '/favicon.svg'];
+
+self.addEventListener('install', e => {
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+  self.skipWaiting();
+});
+self.addEventListener('activate', e => {
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.map(k => k !== CACHE ? caches.delete(k) : null))));
+  self.clients.claim();
+});
+self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET') return;
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(resp => {
+    if (!resp || resp.status !== 200 || resp.type !== 'basic') return resp;
+    const clone = resp.clone();
+    caches.open(CACHE).then(c => c.put(e.request, clone));
+    return resp;
+  })).catch(()=> caches.match('/index.html')));
+});
+```
+
+---
+
+#### `commune_coords.csv` (échantillon)
+```csv
+commune,lat,lng
+Bruxelles,50.8503,4.3517
+Ixelles,50.8225,4.3664
+Saint-Gilles,50.8356,4.3499
+Schaerbeek,50.8642,4.3756
+Anderlecht,50.8350,4.3333
+Uccle,50.7975,4.3456
+Woluwe-Saint-Lambert,50.8399,4.4146
+Woluwe-Saint-Pierre,50.8275,4.4244
+Forest,50.8206,4.3411
+Evere,50.8731,4.3922
+```
+
+---
+
+#### `data_sample.csv`
+```csv
+date,commune,type_observation,description_courte,details,preuve_url,niveau_sensibilite,consentement,autorisation_contact
+2025-12-30T12:34:00,Exampleville,urbanisme,"Trottoir endommagé devant école","Trottoir fissuré sur 10m, risque pour poussettes",http://example.org/photo.jpg,public,oui,non
+```
+
+---
+
+#### `GOVERNANCE.md`
+```markdown
+# GOVERNANCE
+
+Les contributeurs sont copropriétaires des jeux de données agrégés. Toute exploitation commerciale ou redistribution significative nécessite l’accord d’un comité représentatif des contributeurs.
+
+Comité initial : 5 membres volontaires élus par les contributeurs inscrits. Mandat 1 an. Processus de décision : propositions sur le dépôt public, vote asynchrone 7 jours, quorum 10 % ou 50 contributeurs.
+```
+
+---
+
+#### `PRIVACY.md`
+```markdown
+# PRIVACY
+
+Base légale : consentement explicite. Minimisation : seules les données nécessaires sont collectées. Anonymisation : suppression des identifiants directs avant publication. Durée de conservation : 3 ans pour données brutes; jeux agrégés publiés indéfiniment sous licence ODbL.
+
+Procédure de retrait : envoyer une demande via l’adresse indiquée sur la page. Le comité traite la demande et retire les données identifiables dans un délai de 30 jours, sauf si la donnée a déjà été intégrée de façon irréversible dans un jeu agrégé (les contributeurs en seront informés).
+```
+
+---
+
+### Remarques d’intégration rapide
+- Dans `index.html`, vérifiez que les références pointent vers `styles.min.css` et `app.min.js`.  
+- Pour charger automatiquement `commune_coords.csv` au démarrage, ajoutez un petit `fetch('/commune_coords.csv')` et parsez‑le avec la fonction `parseCSV()` avant d’appeler `refreshAll()`.  
+- Testez l’import du `data_sample.csv`, puis importez `commune_coords.csv` via le bouton **Importer mapping communes** pour obtenir des marqueurs précis sur la carte.
+
+---
+
+Souhaitez‑vous que je fournisse maintenant le **snippet** à ajouter dans `index.html` pour charger automatiquement `commune_coords.csv` au démarrage (prêt à coller) ou préférez que je génère un `commune_coords.csv` complet pour toute la Belgique en exemple ?
+
+
+---
+
+### Snippet à ajouter dans `index.html` pour charger automatiquement `commune_coords.csv` au démarrage
+
+Placez ce script **juste avant** la balise `</body>` (ou dans un `<script>` séparé) pour charger et parser automatiquement `/commune_coords.csv` au démarrage, remplir `state.communeMap` et appeler `refreshAll()` une fois le mapping chargé.
+
+```html
+<script>
+/* Charger automatiquement le mapping commune -> lat,lng depuis /commune_coords.csv
+   Doit être placé après l'inclusion de app.min.js (ou app.js) pour que parseCSV et refreshAll existent.
+*/
+(function(){
+  if (!window.fetch || !window.parseCSV) return;
+  fetch('/commune_coords.csv').then(resp => {
+    if (!resp.ok) throw new Error('no-csv');
+    return resp.text();
+  }).then(text => {
+    try {
+      const parsed = parseCSV(text); // parseCSV fournie par app.js / app.min.js
+      parsed.forEach(row => {
+        const key = (row.commune || row.Commune || '').trim();
+        const lat = parseFloat(row.lat || row.Lat || row.LAT || '');
+        const lng = parseFloat(row.lng || row.Lng || row.LNG || '');
+        if (key && !Number.isNaN(lat) && !Number.isNaN(lng)) {
+          // Remplit la map de communes utilisée par geocode()
+          state.communeMap[key] = { lat, lng };
+        }
+      });
+      // Rafraîchir l'affichage si l'app est déjà initialisée
+      if (typeof refreshAll === 'function') refreshAll();
+    } catch (err) {
+      console.warn('Erreur parsing commune_coords.csv', err);
+    }
+  }).catch(()=> {
+    // fichier absent ou inaccessible : pas d'erreur bloquante
+    console.info('commune_coords.csv non trouvé — utilisation de géocodage pseudo‑aléatoire');
+  });
+})();
+</script>
+```
+
+---
+
+### `commune_coords.csv` — fichier d’exemple complet (Belgique, échantillon large)
+Ce fichier est prêt à être placé à la racine du dépôt (`/commune_coords.csv`). Il contient un **jeu représentatif** de communes et localités belges (Bruxelles, Flandre, Wallonie) avec coordonnées approximatives en décimal. Utilisez‑le tel quel ou complétez/affinez les coordonnées selon vos sources locales.
+
+```csv
+commune,lat,lng
+Bruxelles,50.8503,4.3517
+Anderlecht,50.8350,4.3333
+Auderghem,50.8140,4.4020
+Berchem-Sainte-Agathe,50.8620,4.3120
+Evere,50.8731,4.3922
+Forest,50.8206,4.3411
+Ganshoren,50.8739,4.3206
+Ixelles,50.8225,4.3664
+Jette,50.8640,4.3200
+Koekelberg,50.8475,4.3333
+Molenbeek-Saint-Jean,50.8467,4.3333
+Saint-Gilles,50.8356,4.3499
+Saint-Josse-ten-Noode,50.8530,4.3620
+Schaerbeek,50.8642,4.3756
+Uccle,50.7975,4.3456
+Woluwe-Saint-Lambert,50.8399,4.4146
+Woluwe-Saint-Pierre,50.8275,4.4244
+
+Antwerpen,51.2194,4.4025
+Mechelen,51.0253,4.4777
+Turnhout,51.3236,4.9410
+Lier,51.1342,4.5476
+Geel,51.1390,4.9990
+Herentals,51.1880,4.8550
+Mol,51.2550,5.1100
+Hasselt,50.9300,5.3320
+Genk,50.9667,5.5000
+Tongeren,50.7786,5.4639
+Sint-Truiden,50.8200,5.2000
+Beringen,51.0000,5.2000
+
+Gent,51.0543,3.7174
+Oostende,51.2300,2.9150
+Kortrijk,50.8270,3.2640
+Roeselare,50.9480,3.1210
+Waregem,50.8760,3.4010
+Ieper,50.8514,2.8850
+Brugge,51.2093,3.2247
+Aalst,50.9364,4.0356
+Dendermonde,51.0333,4.0833
+Sint-Niklaas,51.1650,4.1420
+
+Liège,50.6326,5.5797
+Namur,50.4674,4.8719
+Charleroi,50.4114,4.4446
+Mons,50.4542,3.9526
+La Louvière,50.4670,4.1830
+Tournai,50.6070,3.3860
+Arlon,49.6833,5.8167
+Verviers,50.5940,5.8640
+Seraing,50.5750,5.5200
+Huy,50.5230,5.2400
+
+Wavre,50.7170,4.6160
+Waterloo,50.7150,4.3997
+Nivelles,50.5833,4.3333
+Ottignies-Louvain-la-Neuve,50.6833,4.6167
+Braine-l'Alleud,50.7000,4.3667
+Tubize,50.6833,4.1667
+La Hulpe,50.7167,4.4333
+
+Seraing,50.5750,5.5200
+Saint-Hubert,49.8333,5.2333
+Dinant,50.2583,4.9125
+Bastogne,50.0000,5.7167
+Neufchâteau,49.8833,5.4667
+Vielsalm,50.2833,5.8833
+
+Blankenberge,51.3140,3.1390
+Knokke-Heist,51.3450,3.2920
+De Panne,51.0700,2.5850
+Oudenaarde,50.8500,3.6000
+Sint-Martens-Latem,51.0000,3.7000
+
+Halle,50.7170,4.2667
+Vilvoorde,50.9150,4.3833
+Dilbeek,50.8333,4.2667
+Tervuren,50.8000,4.4667
+Zaventem,50.8833,4.4667
+
+Schoten,51.2500,4.4667
+Boom,51.1000,4.3500
+Kontich,51.1333,4.4167
+Kapellen,51.3000,4.4167
+Wommelgem,51.2000,4.5000
+
+Halle,50.7170,4.2667
+Sint-Pieters-Leeuw,50.8000,4.2667
+Asse,50.9000,4.1500
+Vilvoorde,50.9150,4.3833
+Mechelen,51.0253,4.4777
+
+Zottegem,50.8500,3.8000
+Geraardsbergen,50.7500,3.8667
+Aarschot,50.9833,4.8333
+Diest,50.9833,5.1000
+Halle,50.7170,4.2667
+
+Knokke,51.3450,3.2920
+De Haan,51.3000,3.0000
+Middelkerke,51.2000,2.9000
+
+--end--
+```
+
+---
+
+### Notes pratiques et recommandations
+- Le CSV ci‑dessus est un **échantillon large** couvrant les principales communes et localités. Pour une couverture complète (toutes les communes belges), je peux générer un fichier plus exhaustif sur demande, mais il est préférable d’importer une source officielle (INSEE/IGN local équivalent, OpenStreetMap, ou un fichier communal officiel) pour garantir précision et complétude.  
+- Pour charger automatiquement sans bouton, collez le snippet suivant **dans `app.min.js`** (après définition de `parseCSV`) si vous préférez l’intégration côté code plutôt que dans `index.html` :
+```javascript
+fetch('/commune_coords.csv').then(r=>r.ok?r.text():Promise.reject()).then(t=>{
+  const parsed = parseCSV(t);
+  parsed.forEach(row=>{
+    const k=(row.commune||'').trim();
+    const lat=parseFloat(row.lat||row.Lat||row.LAT||'');
+    const lng=parseFloat(row.lng||row.Lng||row.LNG||'');
+    if(k && !Number.isNaN(lat) && !Number.isNaN(lng)) state.communeMap[k]={lat,lng};
+  });
+  refreshAll();
+}).catch(()=>{});
+```
+- Après ajout du CSV, testez : importer `data_sample.csv`, vérifier que les marqueurs apparaissent correctement, puis exporter anonymisé pour valider le pipeline.
+
+---
+
+Si vous voulez maintenant la **version exhaustive** (toutes les communes belges, ~581 lignes) prête à coller en un seul fichier CSV, je la génère et fournis immédiatement.
+
+---
+
 
 
