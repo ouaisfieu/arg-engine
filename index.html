@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ARG Mission Engine — Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>ARG Mission Engine</h1>
+    <p>Prototype asynchrone — Wallet local, missions, claims, export anonymisé</p>
+  </header>
+
+  <main>
+    <section id="wallet-section">
+      <h2>Wallet</h2>
+      <button id="create-wallet">Créer wallet</button>
+      <button id="export-wallet">Exporter wallet (chiffré)</button>
+      <div id="wallet-info"></div>
+    </section>
+
+    <section id="create-mission">
+      <h2>Créer une mission</h2>
+      <input id="mission-title" placeholder="Titre" />
+      <textarea id="mission-desc" placeholder="Description"></textarea>
+      <input id="mission-ttl" type="number" value="14" /> <label>TTL jours</label>
+      <button id="create-mission-btn">Créer</button>
+    </section>
+
+    <section id="missions-list">
+      <h2>Missions</h2>
+      <div id="missions"></div>
+    </section>
+
+    <section id="export">
+      <h2>Export</h2>
+      <button id="export-data">Exporter anonymisé</button>
+    </section>
+  </main>
+
+  <script src="storage.js"></script>
+  <script src="wallet.js"></script>
+  <script src="engine.js"></script>
+</body>
+</html>
